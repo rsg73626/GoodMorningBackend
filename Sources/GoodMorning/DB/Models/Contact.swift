@@ -30,7 +30,7 @@ class Contact: PostgresStORM, Codable{
     //MARK: Codable
     required init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
-        do { self.id = try values.decode(Int.self, forKey: .Id) } catch { print("No contact id!") }
+        do { self.id = try values.decode(Int.self, forKey: .Id) } catch { self.id = nil }
         self.content = try values.decode(String.self, forKey: .Content)
         let type = try values.decode(Int.self, forKey: .ContactType)
         self.type = type == 1 ? ContactType.Cellphone : type == 2 ? ContactType.SocialNetwork : ContactType.Other
