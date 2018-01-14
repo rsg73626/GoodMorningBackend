@@ -53,6 +53,30 @@ class UserQuery {
         }
     }
     
+    static func readByEmail(_ email: String) -> User? {
+        let getObj: User = User()
+        do {
+            try getObj.select(columns: ["id", "name", "about", "photo", "email", "password"], whereclause: "email = $1", params: [email], orderby: ["id"])
+            let users = getObj.rows()
+            return users.first
+        } catch {
+            print("Error while reading user by id: \(error)")
+            return nil
+        }
+    }
+    
+    static func readByEmailAndPassword (email: String, password: String) -> User? {
+        let getObj: User = User()
+        do {
+            try getObj.select(columns: ["id", "name", "about", "photo", "email", "password"], whereclause: "email = $1 and password = $2", params: [email, password], orderby: ["id"])
+            let users = getObj.rows()
+            return users.first
+        } catch {
+            print("Error while reading user by id: \(error)")
+            return nil
+        }
+    }
+    
     static func update(_ newUser: User) -> User? {
         let updateObj: User = User()
         
@@ -82,7 +106,6 @@ class UserQuery {
             print("Error while deleting user: \(error)")
             return nil
         }
-        
     }
     
 }
