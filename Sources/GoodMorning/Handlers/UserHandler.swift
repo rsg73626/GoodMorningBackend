@@ -12,31 +12,31 @@ class UserHandler{
             do {
                 let userData = userParam.data(using: .utf8)!
                 let userFromData = try decoder.decode(User.self, from: userData)
-                if let createdUser = UserQuery.create(userFromData) {
-                    do {
-                        let createdUserData = try encoder.encode(createdUser)
-                        let createdUserString = String(data: createdUserData, encoding: .utf8) ?? "{}"
-                        response.appendBody(string: createdUserString)
-                        response.completed()
-                    } catch {
-                        print("Error while encoding user: \(error).")
-                        response.appendBody(string: "{\"error\":\"Internal server error.\"}")
-                        response.completed()
+                if let _ = userFromData.password {
+                    if let _ = UserQuery.readByEmail(userFromData.email) {
+                        ErrorsManager.returnError(log: "There's already an user with the informed email.", message: "There's already an user with the informed email.", response: response)
+                    } else {
+                        if let createdUser = UserQuery.create(userFromData) {
+                            do {
+                                let createdUserData = try encoder.encode(createdUser)
+                                let createdUserString = String(data: createdUserData, encoding: .utf8) ?? "{}"
+                                response.appendBody(string: createdUserString)
+                                response.completed()
+                            } catch {
+                                ErrorsManager.returnError(log: "Error while encoding user: \(error).", message: "Internal server error.", response: response)
+                            }
+                        } else {
+                            ErrorsManager.returnError(log: "Error while creating user.", message: "Error while creating user.", response: response)
+                        }
                     }
                 } else {
-                    print("Error while creating user.")
-                    response.appendBody(string: "{\"error\":\"Error while creating user.\"}")
-                    response.completed()
+                    ErrorsManager.returnError(log: "User password missing.", message: "User password missing.", response: response)
                 }
             } catch {
-                print("Error while encoding user: \(error).")
-                response.appendBody(string: "{\"error\":\"Wrong format in request body content.\"}")
-                response.completed()
+                ErrorsManager.returnError(log: "Error while encoding user: \(error).", message: "Wrong format in request body content.", response: response)
             }
-        }else{
-            print("Missing request body content.")
-            response.appendBody(string: "{\"error\":\"Missing request body content.\"}")
-            response.completed()
+        } else {
+            ErrorsManager.returnError(log: "Missing request body content.", message: "Missing request body content.", response: response)
         }
     }
     
@@ -51,12 +51,8 @@ class UserHandler{
             response.appendBody(string: usersDataString)
             response.completed()
         } catch {
-            print("Erro while encoding users: \(error).")
-            response.appendBody(string: "{\"error\":\"Internal server error.\"}")
-            response.completed()
+            ErrorsManager.returnError(log: "Erro while encoding users: \(error).", message: "Internal server error.", response: response)
         }
-        
-        
     }
     
     static func readById(request: HTTPRequest, response: HTTPResponse) {
@@ -71,17 +67,43 @@ class UserHandler{
                     response.appendBody(string: userDataString)
                     response.completed()
                 } catch {
-                    print("Erro while encoding user: \(error).")
-                    response.appendBody(string: "{\"error\":\"Internal server error.\"}")
-                    response.completed()
+                    ErrorsManager.returnError(log: "Erro while encoding user: \(error).", message: "Internal server error.", response: response)
                 }
             }else{
-                response.appendBody(string: "{\"error\":\"User not found.\"}")
-                response.completed()
+                ErrorsManager.returnError(log: "User not found.", message: "User not found.", response: response)
             }
         }else{
-            response.appendBody(string: "{\"error\":\"Invalid id argument.\"}")
-            response.completed()
+            ErrorsManager.returnError(log: "Invalid id argument.", message: "Invalid id argument.", response: response)
+        }
+    }
+    
+    static func login(request: HTTPRequest, response: HTTPResponse) {
+        response.setHeader(.contentType, value: "application/json")
+        let encoder: JSONEncoder = JSONEncoder()
+        
+        if let userDataParam = request.postBodyString {
+            if let jsonObject = Parser.shared.jsonStringToDictionary(userDataParam) {
+                if let email = jsonObject["email"] as? String, let password = jsonObject["password"] as? String {
+                    if let user = UserQuery.readByEmailAndPassword(email: email, password: password) {
+                        do {
+                            let userData = try encoder.encode(user)
+                            let userDataString = String(data: userData, encoding: .utf8) ?? "{}"
+                            response.appendBody(string: userDataString)
+                            response.completed()
+                        } catch {
+                            ErrorsManager.returnError(log: "Erro while encoding user: \(error).", message: "Internal server error.", response: response)
+                        }
+                    } else {
+                        ErrorsManager.returnError(log: "Wrong user or password.", message: "Wrong user or password.", response: response)
+                    }
+                } else {
+                    ErrorsManager.returnError(log: "Argument missing.", message: "Argument missing", response: response)
+                }
+            } else {
+                ErrorsManager.returnError(log: "Error while parsing user data to dictionary.", message: "Wrong format in request body content.", response: response)
+            }
+        } else {
+            ErrorsManager.returnError(log: "Missing request body content.", message: "Missing request body content.", response: response)
         }
     }
     
@@ -100,27 +122,17 @@ class UserHandler{
                     response.appendBody(string: updatedUserString)
                     response.completed()
                 } else {
-                    print("Erro while updating user.")
-                    response.appendBody(string: "{\"error\":\"Error while updating user.\"}")
-                    response.completed()
+                    ErrorsManager.returnError(log: "Erro while updating user.", message: "Erro while updating user.", response: response)
                 }
             } catch let decodingError as DecodingError {
-                print("Error while decoding user: \(decodingError).")
-                response.appendBody(string: "{\"error\":\"Wrong format in request body content.\"}")
-                response.completed()
+                ErrorsManager.returnError(log: "Error while decoding user: \(decodingError).", message: "Wrong format in request body content.", response: response)
             } catch let encodingError as EncodingError {
-                print("Error while encoding user: \(encodingError).")
-                response.appendBody(string: "{\"error\":\"Internal server error.\"}")
-                response.completed()
+                ErrorsManager.returnError(log: "Error while encoding user: \(encodingError).", message: "Internal server error.", response: response)
             } catch {
-                print("Codable error while updating user: \(error).")
-                response.appendBody(string: "{\"error\":\"Internal server error.\"}")
-                response.completed()
+                ErrorsManager.returnError(log: "Codable error while updating user: \(error).", message: "Internal server error.", response: response)
             }
         }else{
-            print("Missing request body content.")
-            response.appendBody(string: "{\"error\":\"Missing request body content.\"}")
-            response.completed()
+            ErrorsManager.returnError(log: "Missing request body content.", message: "Missing request body content.", response: response)
         }
     }
     
@@ -137,23 +149,16 @@ class UserHandler{
                         response.appendBody(string: deletedUserString)
                         response.completed()
                     } catch {
-                        print("Erro while encoding user: \(error).")
-                        response.appendBody(string: "{\"error\":\"Internal server error.\"}")
-                        response.completed()
+                        ErrorsManager.returnError(log: "Erro while encoding user: \(error).", message: "Internal server error.", response: response)
                     }
                 }else{
-                    print("Error while deleting user by id.")
-                    response.appendBody(string: "{\"error\":\"Error while deleting user by id.\"}")
-                    response.completed()
+                    ErrorsManager.returnError(log: "Error while deleting user by id.", message: "Error while deleting user by id.", response: response)
                 }
             }else{
-                response.appendBody(string: "{\"error\":\"Invalid id argument.\"}")
-                response.completed()
+                ErrorsManager.returnError(log: "Invalid id argument.", message: "Invalid id argument.", response: response)
             }
         }else{
-            response.appendBody(string: "{\"error\":\"Missing id argument.\"}")
-            response.completed()
+            ErrorsManager.returnError(log: "Missing id argument.", message: "Missing id argument.", response: response)
         }
     }
-    
 }
