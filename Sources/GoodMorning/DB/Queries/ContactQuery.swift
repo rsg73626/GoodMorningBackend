@@ -6,7 +6,7 @@ class ContactQuery {
     static func create(_ contact: Contact, userId: Int) -> Contact? {
         let createObj: Contact = Contact()
         do {
-            let res = try createObj.sql("insert into contact(content, id_contact_type, id_goodmorning_user) values($1, $2, $3) returning id", params: [contact.content!, "\(contact.type!.rawValue)", "\(userId)"])
+            let res = try createObj.sql("insert into contact(content, id_contact_type, id_goodmorning_user) values($1, $2, $3) returning id", params: [contact.content, "\(contact.type!.rawValue)", "\(userId)"])
             let createdId: Int = res.getFieldInt(tupleIndex: 0, fieldIndex: 0) ?? 0
             return readById(createdId)
         } catch {
@@ -51,12 +51,27 @@ class ContactQuery {
         return contacts
     }
     
-    static func update(_: Contact) -> Contact? {
-        return nil
+    static func update(_ contact: Contact) -> Contact? {
+        let updateObj: Contact = Contact()
+        do {
+            let _ = try updateObj.sql("update contact set content = $1, id_contact_type = $2 where id = $3", params: [contact.content, "\(contact.type!.rawValue)", "\(contact.id!)"])
+            return readById(contact.id!)
+        } catch {
+            print("Error while updating contact: \(error)")
+            return nil
+        }
     }
     
     static func delete(_ id: Int) -> Contact? {
-        return nil
+        let deleteObj: Contact = Contact()
+        let deletedContact = readById(id)
+        do {
+            let _ = try deleteObj.sql("delete from contact where id = $1", params: ["\(id)"])
+            return deletedContact
+        } catch {
+            print("Error while deleting user: \(error)")
+            return nil
+        }
     }
     
 }
