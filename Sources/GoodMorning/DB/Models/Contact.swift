@@ -4,9 +4,9 @@ import PostgresStORM
 class Contact: PostgresStORM, Codable{
     
     //MARK: Properties
-    var id: Int = 0
-    var content: String?
-    var type: ContactType?
+    var id: Int? = 0
+    var content: String!
+    var type: ContactType!
     
     //MARK: Types
     enum CodingKeys: String, CodingKey {
@@ -17,8 +17,8 @@ class Contact: PostgresStORM, Codable{
     
     //MARK: Initializers
     override init(){
-        self.content = nil
-        self.type = nil
+        self.content = ""
+        self.type = ContactType.Other
         super.init()
     }
     
@@ -30,7 +30,7 @@ class Contact: PostgresStORM, Codable{
     //MARK: Codable
     required init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
-        self.id = try values.decode(Int.self, forKey: .Id)
+        do { self.id = try values.decode(Int.self, forKey: .Id) } catch { print("No contact id!") }
         self.content = try values.decode(String.self, forKey: .Content)
         let type = try values.decode(Int.self, forKey: .ContactType)
         self.type = type == 1 ? ContactType.Cellphone : type == 2 ? ContactType.SocialNetwork : ContactType.Other

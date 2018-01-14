@@ -32,7 +32,7 @@ class ConfigDB {
     //MARK: create table functions
     private static func createUserTable(){
         let user: User = User()
-        try? user.setup("create table if not exists goodmorning_user(id serial primary key,name varchar(100) not null,about text not null,photo text not null,email varchar(100) not null unique,password varchar(100) not null);")
+        try? user.setup("create table if not exists goodmorning_user(id serial primary key,name varchar(100) not null,about text,photo text,email varchar(100) not null unique,password varchar(100) not null);")
     }
     
     private static func createContactTable(){
