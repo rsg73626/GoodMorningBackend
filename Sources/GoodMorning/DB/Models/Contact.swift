@@ -17,12 +17,14 @@ class Contact: PostgresStORM, Codable{
     
     //MARK: Initializers
     override init(){
+        self.id = nil
         self.content = ""
         self.type = ContactType.Other
         super.init()
     }
     
     init(content: String, type: ContactType) {
+        self.id = nil
         self.content = content
         self.type = type
     }
@@ -44,12 +46,12 @@ class Contact: PostgresStORM, Codable{
     }
     
     //MARK: PostgresStORM
-    override open func table() -> String { return "contact" }
+    override open func table() -> String { return ContactTable.tableName }
     
     override func to(_ this: StORMRow) {
-        id = this.data["id"] as? Int ?? 0
-        content = this.data["content"] as? String ?? ""
-        let contactType: Int = this.data["id_contact_type"] as? Int ?? 3
+        let contactType: Int = this.data[ContactTable.type] as? Int ?? 3
+        id = this.data[ContactTable.id] as? Int ?? 0
+        content = this.data[ContactTable.content] as? String ?? ""
         type = contactType == 1 ? ContactType.Cellphone : contactType == 2 ? ContactType.SocialNetwork : ContactType.Other
     }
     

@@ -96,11 +96,11 @@ class ContactHandler {
                     ErrorsManager.returnError(log: "Erro while updating contact.", message: "Erro while updating contact.", response: response)
                 }
             } catch let decodingError as DecodingError {
-                ErrorsManager.returnError(log: "Error while decoding user: \(decodingError).", message: "Wrong format in request body content.", response: response)
+                ErrorsManager.returnError(log: "Error while decoding contact: \(decodingError).", message: "Wrong format in request body content.", response: response)
             } catch let encodingError as EncodingError {
-                ErrorsManager.returnError(log: "Error while encoding user: \(encodingError).", message: "Internal server error.", response: response)
+                ErrorsManager.returnError(log: "Error while encoding contact: \(encodingError).", message: "Internal server error.", response: response)
             } catch {
-                ErrorsManager.returnError(log: "Codable error while updating user: \(error).", message: "Internal server error.", response: response)
+                ErrorsManager.returnError(log: "Codable error while updating contact: \(error).", message: "Internal server error.", response: response)
             }
         }else{
             ErrorsManager.returnError(log: "Missing request body content.", message: "Missing request body content.", response: response)

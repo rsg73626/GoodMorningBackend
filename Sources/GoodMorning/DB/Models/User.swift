@@ -26,21 +26,28 @@ class User: PostgresStORM, Codable{
     
     //MARK: Initializers
     override init(){
+        self.id = nil
         self.name = ""
         self.email = ""
         self.password = nil
         self.photo = nil
         self.about = nil
+        self.contacts = nil
         super.init()
     }
     
     init(name: String, email: String, password: String) {
+        self.id = nil
         self.name = name
         self.email = email
         self.password = password
+        self.photo = nil
+        self.about = nil
+        self.contacts = nil
     }
     
     init(name: String, email: String, password: String, photo: String, about: String, contacts: [Contact]) {
+        self.id = nil
         self.name = name
         self.email = email
         self.password = password
@@ -74,14 +81,14 @@ class User: PostgresStORM, Codable{
 
     
     //MARK: PostgresStORM
-    override open func table() -> String { return "goodmorning_user" }
+    override open func table() -> String { return UserTable.tableName }
     
     override func to(_ this: StORMRow) {
-        id = this.data["id"] as? Int ?? 0
-        name = this.data["name"] as! String
-        email = this.data["email"] as! String
-        photo = this.data["photo"] as? String ?? ""
-        about = this.data["about"] as? String ?? ""
+        id = this.data[UserTable.id] as? Int ?? 0
+        name = this.data[UserTable.name] as! String
+        email = this.data[UserTable.email] as! String
+        photo = this.data[UserTable.photo] as? String ?? ""
+        about = this.data[UserTable.about] as? String ?? ""
         contacts = ContactQuery.readByUserId(id!)
     }
     

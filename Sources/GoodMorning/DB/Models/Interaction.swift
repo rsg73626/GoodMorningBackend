@@ -4,58 +4,68 @@ import PostgresStORM
 class Interaction: PostgresStORM, Codable {
     
     //MARK: Properties
-    var id: Int = 0
+    var id: Int? = 0
     var greeting: Greeting?
-    var isRetributed: Bool = false
-    var isLiked: Bool = false
+    var isRetributed: Bool!
+    var isLikedBySender: Bool!
+    var isLikedByReceiver: Bool!
     
     //MARK: Types
     enum CodingKeys: String, CodingKey {
         case Id = "id"
         case Greeting = "greeting"
-        case GreetingId = "greeting_id"
         case IsRetributed = "is_retributed"
-        case IsLiked = "is_liked"
+        case IsLikedBySender = "is_liked_by_sender"
+        case IsLikedByReceiver = "is_liked_by_receiver"
     }
     
     //MARK: Initializers
     override init(){
+        self.id = nil
         self.greeting = nil
+        self.isRetributed = false
+        self.isLikedBySender = false
+        self.isLikedByReceiver = false
         super.init()
     }
     
-    init(greeting: Greeting, isRetributed: Bool, isLiked: Bool) {
+    init(greeting: Greeting, isRetributed: Bool, isLikedBySender: Bool, isLikedByReceiver: Bool) {
+        self.id = nil
         self.greeting = greeting
         self.isRetributed = isRetributed
-        self.isLiked = isLiked
+        self.isLikedBySender = isLikedBySender
+        self.isLikedByReceiver = isLikedByReceiver
     }
     
     //MARK: Codable
     required init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
-        self.id = try values.decode(Int.self, forKey: .Id)
+        do { self.id = try values.decode(Int.self, forKey: .Id) } catch { self.id = nil }
         self.greeting = try values.decode(Greeting.self, forKey: .Greeting)
         self.isRetributed = try values.decode(Bool.self, forKey: .IsRetributed)
-        self.isLiked = try values.decode(Bool.self, forKey: .IsLiked)
+        self.isLikedBySender = try values.decode(Bool.self, forKey: .IsLikedBySender)
+        self.isLikedByReceiver = try values.decode(Bool.self, forKey: .IsLikedByReceiver)
     }
     
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(self.id, forKey: .Id)
-        try container.encode(self.greeting?.id, forKey: .GreetingId)
+        try container.encode(self.greeting!, forKey: .Greeting)
         try container.encode(self.isRetributed, forKey: .IsRetributed)
-        try container.encode(self.isLiked, forKey: .IsLiked)
+        try container.encode(self.isLikedBySender, forKey: .IsLikedBySender)
+        try container.encode(self.isLikedByReceiver, forKey: .IsLikedByReceiver)
     }
     
     //MARK: PostgresStORM
-    override open func table() -> String { return "interaction" }
+    override open func table() -> String { return InteractionTable.tableName }
     
     override func to(_ this: StORMRow) {
-        id = this.data["id"] as? Int ?? 0
-        let greetingId = this.data["id_greeting"] as? Int ?? 0
+        let greetingId = this.data[InteractionTable.greeting] as! Int
+        id = this.data[InteractionTable.id] as? Int ?? 0
         greeting = GreetingQuery.readById(greetingId)
-        isRetributed = this.data["is_retribuited"] as? Bool ?? false
-        isLiked = this.data["is_liked"] as? Bool ?? false
+        isRetributed = this.data[InteractionTable.isRetributed] as! Bool
+        isLikedBySender = this.data[InteractionTable.isLikedBySender] as! Bool
+        isLikedByReceiver = this.data[InteractionTable.isLikedByReceiver] as! Bool
     }
     
     func rows() -> [Interaction] {

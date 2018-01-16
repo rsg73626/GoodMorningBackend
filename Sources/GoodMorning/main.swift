@@ -18,7 +18,12 @@ server.serverPort = 8181
 var indexRout = Routes()
 indexRout.add(method: .get, uri: "/", handler: {request, response in
     response.setHeader(.contentType, value: "text/html")
-    response.appendBody(string: "<html><title>Hello World</title><body> Renan Soares Germano </body></html>")
+    response.appendBody(string: "<html><title>Good Morning</title><body> Good Morning APP Server </body></html>")
+    response.completed()
+})
+indexRout.add(method: .get, uri: "/api/", handler: {request, response in
+    response.setHeader(.contentType, value: "text/html")
+    response.appendBody(string: "<html><title>Good Morning API</title><body> Good Morning API Documentation </body></html>")
     response.completed()
 })
 let routes = ConfigRouting.makeURLRoutes()

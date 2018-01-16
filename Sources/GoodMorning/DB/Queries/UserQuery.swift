@@ -15,7 +15,7 @@ class UserQuery {
         if let userContacts = user.contacts { contacts = userContacts }
         
         do {
-            let query = "insert into goodmorning_user (name, email, password, photo, about) values($1, $2, $3, $4, $5) returning id"
+            let query = "insert into \(UserTable.tableName) (\(UserTable.name), \(UserTable.email), \(UserTable.password), \(UserTable.photo), \(UserTable.about)) values($1, $2, $3, $4, $5) returning \(UserTable.id)"
             let res = try createObj.sql(query, params: [user.name, user.email, user.password!, photo, about])
             let createdId: Int = res.getFieldInt(tupleIndex: 0, fieldIndex: 0) ?? 0
             contacts.forEach {contact in let _ = ContactQuery.create(contact, userId: createdId)}
@@ -30,7 +30,7 @@ class UserQuery {
         var users = [User]()
         let getObj: User = User()
         do {
-            try getObj.select(columns: ["id", "name", "about", "photo", "email", "password"], whereclause: "", params: [], orderby: ["id"])
+            try getObj.select(columns: [UserTable.id, UserTable.name, UserTable.email, UserTable.password, UserTable.about, UserTable.photo], whereclause: "", params: [], orderby: [UserTable.id])
             users = getObj.rows()
             
             users.forEach {user in user.contacts = ContactQuery.readByUserId(user.id!)}
@@ -44,7 +44,7 @@ class UserQuery {
     static func readById(_ id: Int) -> User? {
         let getObj: User = User()
         do {
-            try getObj.select(columns: ["id", "name", "about", "photo", "email", "password"], whereclause: "id = $1", params: [id], orderby: ["id"])
+            try getObj.select(columns: [UserTable.id, UserTable.name, UserTable.email, UserTable.password, UserTable.about, UserTable.photo], whereclause: "\(UserTable.id) = $1", params: [id], orderby: [UserTable.id])
             let users = getObj.rows()
             return users.first
         } catch {
@@ -56,7 +56,7 @@ class UserQuery {
     static func readByEmail(_ email: String) -> User? {
         let getObj: User = User()
         do {
-            try getObj.select(columns: ["id", "name", "about", "photo", "email", "password"], whereclause: "email = $1", params: [email], orderby: ["id"])
+            try getObj.select(columns: [UserTable.id, UserTable.name, UserTable.email, UserTable.password, UserTable.about, UserTable.photo], whereclause: "\(UserTable.email) = $1", params: [email], orderby: [UserTable.id])
             let users = getObj.rows()
             return users.first
         } catch {
@@ -68,7 +68,7 @@ class UserQuery {
     static func readByEmailAndPassword (email: String, password: String) -> User? {
         let getObj: User = User()
         do {
-            try getObj.select(columns: ["id", "name", "about", "photo", "email", "password"], whereclause: "email = $1 and password = $2", params: [email, password], orderby: ["id"])
+            try getObj.select(columns: [UserTable.id, UserTable.name, UserTable.email, UserTable.password, UserTable.about, UserTable.photo], whereclause: "\(UserTable.email) = $1 and \(UserTable.password) = $2", params: [email, password], orderby: [UserTable.id])
             let users = getObj.rows()
             return users.first
         } catch {
@@ -87,7 +87,7 @@ class UserQuery {
         if let userAbout = newUser.about { about = userAbout }
         
         do {
-            let query = "update goodmorning_user set name = $1, about = $2, photo = $3, email = $4 where id = $5"
+            let query = "update \(UserTable.tableName) set \(UserTable.name) = $1, \(UserTable.about) = $2, \(UserTable.photo) = $3, \(UserTable.email) = $4 where \(UserTable.id) = $5"
             let _ = try updateObj.sql(query, params: [newUser.name, about, photo, newUser.email!, "\(newUser.id!)"])
             return readById(newUser.id!)
         } catch {
@@ -100,7 +100,7 @@ class UserQuery {
         let deleteObj: User = User()
         let deletedUser = readById(id)
         do {
-            let _ = try deleteObj.sql("delete from goodmorning_user where id = $1", params: ["\(id)"])
+            let _ = try deleteObj.sql("delete from \(UserTable.tableName) where \(UserTable.id) = $1", params: ["\(id)"])
             return deletedUser
         } catch {
             print("Error while deleting user: \(error)")
