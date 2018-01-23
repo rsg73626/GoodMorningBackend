@@ -6,11 +6,11 @@ class ContactRouting{
         
         var routes: Routes = Routes()
         
-        routes.add(method: .post, uri: "/", handler: ContactHandler.create)
-        routes.add(method: .get, uri: "/", handler: ContactHandler.read)
-        routes.add(method: .get, uri: "/{id}/", handler: ContactHandler.readById)
-        routes.add(method: .put, uri: "/", handler: ContactHandler.update)
-        routes.add(method: .delete, uri: "/{id}/", handler: ContactHandler.delete)
+        routes.add(method: .post, uri: "/contact", handler: ContactHandler.create)
+        routes.add(method: .get, uri: "/contact", handler: ContactHandler.read)
+        routes.add(method: .get, uri: "/contact/{id}", handler: ContactHandler.readById)
+        routes.add(method: .put, uri: "/contact", handler: ContactHandler.update)
+        routes.add(method: .delete, uri: "/contact/{id}", handler: ContactHandler.delete)
         
         return routes
     }

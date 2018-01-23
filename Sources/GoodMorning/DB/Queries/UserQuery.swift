@@ -53,6 +53,19 @@ class UserQuery {
         }
     }
     
+    static func readByGreetingId(_ id: Int) -> User? {
+        let getObj: User = User()
+        do {
+            let query = "select gu.id from goodmorning_user gu inner join greeting g on gu.id = g.creator where g.id = $1"
+            let res = try getObj.sql(query, params: ["\(id)"])
+            let generatedId: Int = res.getFieldInt(tupleIndex: 0, fieldIndex: 0) ?? 0
+            return readById(generatedId)
+        } catch {
+            print("Error while creating user: \(error)")
+            return nil
+        }
+    }
+    
     static func readByEmail(_ email: String) -> User? {
         let getObj: User = User()
         do {

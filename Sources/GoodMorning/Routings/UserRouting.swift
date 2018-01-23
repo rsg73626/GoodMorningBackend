@@ -6,12 +6,12 @@ class UserRouting{
         
         var routes: Routes = Routes()
         
-        routes.add(method: .post, uri: "/", handler: UserHandler.create)
-        routes.add(method: .post, uri: "/login/", handler: UserHandler.login)
-        routes.add(method: .get, uri: "/", handler: UserHandler.read)
-        routes.add(method: .get, uri: "/{id}/", handler: UserHandler.readById)
-        routes.add(method: .put, uri: "/", handler: UserHandler.update)
-        routes.add(method: .delete, uri: "/{id}/", handler: UserHandler.delete)
+        routes.add(method: .post, uri: "/user", handler: UserHandler.create)
+        routes.add(method: .post, uri: "/user/login", handler: UserHandler.login)
+        routes.add(method: .get, uri: "/user", handler: UserHandler.read)
+        routes.add(method: .get, uri: "/user/{id}", handler: UserHandler.readById)
+        routes.add(method: .put, uri: "/user", handler: UserHandler.update)
+        routes.add(method: .delete, uri: "/user/{id}", handler: UserHandler.delete)
         
         return routes
     }

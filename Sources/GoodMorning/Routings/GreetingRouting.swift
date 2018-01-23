@@ -6,11 +6,11 @@ class GreetingRouting{
         
         var routes: Routes = Routes()
         
-        routes.add(method: .post, uri: "/", handler: GreetingHandler.create)
-        routes.add(method: .get, uri: "/", handler: GreetingHandler.read)
-        routes.add(method: .get, uri: "/{id}/", handler: GreetingHandler.readById)
-        routes.add(method: .put, uri: "/", handler: GreetingHandler.update)
-        routes.add(method: .delete, uri: "/{id}/", handler: GreetingHandler.delete)
+        routes.add(method: .post, uri: "/greeting", handler: GreetingHandler.create)
+        routes.add(method: .get, uri: "/greeting", handler: GreetingHandler.read)
+        routes.add(method: .get, uri: "/greeting/{id}", handler: GreetingHandler.readById)
+        routes.add(method: .put, uri: "/greeting", handler: GreetingHandler.update)
+        routes.add(method: .delete, uri: "/greeting/{id}", handler: GreetingHandler.delete)
         
         return routes
     }

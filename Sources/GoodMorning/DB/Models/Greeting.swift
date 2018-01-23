@@ -9,6 +9,7 @@ class Greeting: PostgresStORM, Codable{
     var type: GreetingType!
     var message: String!
     var date: Date!
+    var creator: User?
     
     //MARK: Types
     enum CodingKeys: String, CodingKey {
@@ -16,6 +17,7 @@ class Greeting: PostgresStORM, Codable{
         case GreetingType = "type"
         case Message = "message"
         case Date = "date"
+        case Creator = "creator"
     }
     
     //MARK: Initializers
@@ -24,6 +26,7 @@ class Greeting: PostgresStORM, Codable{
         self.type = GreetingType.GoodMorning
         self.message = ""
         self.date = Date()
+        self.creator = nil
         super.init()
     }
     
@@ -32,6 +35,14 @@ class Greeting: PostgresStORM, Codable{
         self.type = type
         self.message = message
         self.date = date
+        self.creator = nil
+    }
+    
+    init(type: GreetingType, message: String, date: Date, creator: User) {
+        self.type = type
+        self.message = message
+        self.date = date
+        self.creator = creator
     }
     
     //MARK: Codable
@@ -43,6 +54,7 @@ class Greeting: PostgresStORM, Codable{
         self.message = try values.decode(String.self, forKey: .Message)
         let dateString = try values.decode(String.self, forKey: .Date)
         self.date = Parser.shared.stringToDate(dateString, format: "yyyy-MM-dd")
+        do { self.creator = try values.decode(User.self, forKey: .Creator) } catch { self.creator = nil }
     }
     
     func encode(to encoder: Encoder) throws {
@@ -51,6 +63,7 @@ class Greeting: PostgresStORM, Codable{
         try container.encode(self.type.rawValue, forKey: .GreetingType)
         try container.encode(self.message, forKey: .Message)
         try container.encode(Parser.shared.dateToString(self.date!, format: "yyyy-MM-dd"), forKey: .Date)
+        try container.encode(self.creator, forKey: .Creator)
     }
     
     //MARK: PostgresStORM

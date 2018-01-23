@@ -7,24 +7,16 @@ class ConfigRouting{
         var routes: Routes = Routes(baseUri: "/api")
         
         //MARK: User routing
-        var userRoutes: Routes = Routes(baseUri: "/user")
-        userRoutes.add(UserRouting.makeURLRoutes())
-        routes.add(userRoutes)
+        routes.add(UserRouting.makeURLRoutes())
         
         //MARK: Contact routingadd
-        var contactRoutes: Routes = Routes(baseUri: "/contact")
-        contactRoutes.add(ContactRouting.makeURLRoutes())
-        routes.add(contactRoutes)
+        routes.add(ContactRouting.makeURLRoutes())
         
         //MARK: Greeting routingadd
-        var greetingRoutes: Routes = Routes(baseUri: "/greeting")
-        greetingRoutes.add(GreetingRouting.makeURLRoutes())
-        routes.add(greetingRoutes)
+        routes.add(GreetingRouting.makeURLRoutes())
         
         //MARK: Interaction routingadd
-        var interactionRoutes: Routes = Routes(baseUri: "/interaction")
-        interactionRoutes.add(InteractionRouting.makeURLRoutes())
-        routes.add(interactionRoutes)
+        routes.add(InteractionRouting.makeURLRoutes())
         
         return routes
     }

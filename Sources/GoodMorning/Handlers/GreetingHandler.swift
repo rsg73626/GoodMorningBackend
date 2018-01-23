@@ -48,13 +48,19 @@ class GreetingHandler{
         
         do {
             let greetings = GreetingQuery.read()
+            if let completeParam = request.param(name: "complete"), let isComplete = Bool(completeParam), isComplete {
+                for greeting in greetings {
+                    greeting.creator = UserQuery.readByGreetingId(greeting.id ?? 0)
+                }
+            }
             let greetingsData = try encoder.encode(greetings)
             let greetingsDataString = String(data: greetingsData, encoding: .utf8) ?? "{}"
             response.appendBody(string: greetingsDataString)
             response.completed()
         } catch {
             ErrorsManager.returnError(log: "Erro while encoding greetings: \(error).", message: "Internal server error.", response: response)
-        }    }
+        }
+    }
     
     static func readById(request: HTTPRequest, response: HTTPResponse){
         response.setHeader(.contentType, value: "application/json")
@@ -63,6 +69,9 @@ class GreetingHandler{
         if let greetingId = request.urlVariables["id"], let greetingIdAsInt = Int(greetingId) {
             if let greeting = GreetingQuery.readById(greetingIdAsInt){
                 do {
+                    if let completeParam = request.param(name: "complete"), let isComplete = Bool(completeParam), isComplete {
+                        greeting.creator = UserQuery.readByGreetingId(greeting.id ?? 0)
+                    }
                     let greetingData = try encoder.encode(greeting)
                     let greetingDataString = String(data: greetingData, encoding: .utf8) ?? "{}"
                     response.appendBody(string: greetingDataString)
