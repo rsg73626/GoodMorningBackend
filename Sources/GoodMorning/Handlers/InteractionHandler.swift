@@ -39,6 +39,11 @@ class InteractionHandler{
         
         do {
             let interactions = InteractionQuery.read()
+            if let completeParam = request.param(name: "complete"), let isComplete = Bool(completeParam), isComplete {
+                for interaction in interactions {
+                    interaction.greeting?.creator = UserQuery.readByGreetingId(interaction.greeting?.id ?? 0)
+                }
+            }
             let interactionsData = try encoder.encode(interactions)
             let interactionsDataString = String(data: interactionsData, encoding: .utf8) ?? "{}"
             response.appendBody(string: interactionsDataString)
@@ -55,6 +60,9 @@ class InteractionHandler{
         if let interactionId = request.urlVariables["id"], let interactionIdAsInt = Int(interactionId) {
             if let interaction = InteractionQuery.readById(interactionIdAsInt){
                 do {
+                    if let completeParam = request.param(name: "complete"), let isComplete = Bool(completeParam), isComplete {
+                        interaction.greeting?.creator = UserQuery.readByGreetingId(interaction.greeting?.id ?? 0)
+                    }
                     let interactionData = try encoder.encode(interaction)
                     let interactionDataString = String(data: interactionData, encoding: .utf8) ?? "{}"
                     response.appendBody(string: interactionDataString)

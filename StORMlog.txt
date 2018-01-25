@@ -1879,3 +1879,62 @@
 [INFO] [15e199a3-379b-427b-aa7e-a1b02481d494] [2018-01-23 14:24:56 GMT-02:00] Running setup: greeting
 [INFO] [ca03e25e-6b1c-4c62-b37d-7f4362eba53a] [2018-01-23 14:24:56 GMT-02:00] Running setup: interaction
 [ERROR] [86c18479-3248-4e97-bd93-5823e8316352] [2018-01-23 14:24:56 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [c8de8405-6a3c-43b2-a09e-09cb276d7fcd] [2018-01-25 14:09:47 GMT-02:00] Running setup: goodmorning_user
+[ERROR] [ee188219-10f4-4da0-b66d-c32eff93c924] [2018-01-25 14:09:48 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [24ca7d32-9960-40ab-b85b-4682b76c0136] [2018-01-25 14:09:48 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [c642c7c1-b8d8-47e7-a220-79e6e197ebba] [2018-01-25 14:09:48 GMT-02:00] Running setup: contact
+[ERROR] [e45d589c-cf03-4508-9f0d-772b3fdc9c3c] [2018-01-25 14:09:49 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [e76a9a4a-d9c0-4955-8a37-4068332f09bc] [2018-01-25 14:09:49 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [b0337f4e-28b9-4e2a-8c09-3bba25da85b4] [2018-01-25 14:09:49 GMT-02:00] Running setup: contact
+[ERROR] [c8f92f85-79b8-4c70-9516-ee080f339e58] [2018-01-25 14:09:50 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [1240a820-a4b0-42ec-9b5b-1fb1df559f49] [2018-01-25 14:09:50 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [c50662fc-ec57-4ca1-ae0f-b0402373d888] [2018-01-25 14:09:50 GMT-02:00] Running setup: contact
+[ERROR] [efdec48c-3bb8-4c84-aa89-797910bdde08] [2018-01-25 14:09:51 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [be5cb367-bbfb-427d-9bf7-f1a34dce5d4f] [2018-01-25 14:09:51 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [bde7fd84-4521-4417-a50b-3afe5ad85bfc] [2018-01-25 14:09:51 GMT-02:00] Running setup: greeting
+[ERROR] [e292d6c3-9837-4116-b2a9-28d7ea0821b1] [2018-01-25 14:09:52 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [6d4801aa-a36d-40c1-857d-2caa626463cf] [2018-01-25 14:09:52 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [479b0997-c648-42ed-9b5b-e77be7f72557] [2018-01-25 14:09:52 GMT-02:00] Running setup: greeting
+[ERROR] [83198e49-502c-4dc7-bda1-95063167704f] [2018-01-25 14:09:53 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [b0984956-416b-4341-b6bf-e6be0b1708a7] [2018-01-25 14:09:53 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [052924be-faa6-430b-8cc4-c17058d4ac8e] [2018-01-25 14:09:53 GMT-02:00] Running setup: greeting
+[ERROR] [4b3e9d6d-213d-4fad-b20c-e64ca47fc54a] [2018-01-25 14:09:54 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [1d45f320-f980-4c6d-9cda-b02cfaa8d99d] [2018-01-25 14:09:54 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [4be8dff3-e860-40a4-bbc1-46d3ce270bb3] [2018-01-25 14:09:54 GMT-02:00] Running setup: interaction
+[ERROR] [fa557fb9-2d53-48e5-9b57-22f794940ad5] [2018-01-25 14:09:54 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [969940a6-feaa-4e45-9a4e-765fdba8fe7a] [2018-01-25 14:09:54 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [731e8922-479a-4591-a9ad-d4b70e03747a] [2018-01-25 14:09:55 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [a557423d-99e6-4f5c-9246-da19d06ee7e7] [2018-01-25 14:10:45 GMT-02:00] Running setup: goodmorning_user
+[INFO] [8013709e-e107-4eb3-bac5-2a683dedf20a] [2018-01-25 14:10:47 GMT-02:00] Running setup: contact
+[INFO] [6c1267f9-caaa-451e-9ba4-404b54b60d49] [2018-01-25 14:10:48 GMT-02:00] Running setup: contact
+[INFO] [8cc2c54b-e3a5-4154-a6a6-ca27a3421055] [2018-01-25 14:10:50 GMT-02:00] Running setup: contact
+[INFO] [4944addc-abd4-4b3f-9abd-df3e6fe193c9] [2018-01-25 14:10:51 GMT-02:00] Running setup: greeting
+[INFO] [9847acd2-3ecb-4d2d-bfd9-1441ca8911ad] [2018-01-25 14:10:52 GMT-02:00] Running setup: greeting
+[INFO] [c29d7c0d-7c5b-4bbe-abc3-f0bbe914b9b9] [2018-01-25 14:10:53 GMT-02:00] Running setup: greeting
+[INFO] [b0ac0c80-afcd-4caa-a2a0-84de27a646c9] [2018-01-25 14:10:55 GMT-02:00] Running setup: interaction
+[INFO] [918bc311-251d-404c-a6ae-241720a3627f] [2018-01-25 14:29:53 GMT-02:00] Running setup: goodmorning_user
+[INFO] [2f699984-20f4-4907-b0ea-86ca06edce6f] [2018-01-25 14:29:55 GMT-02:00] Running setup: contact
+[INFO] [4c68d523-efe8-4272-940e-bc648d8fea3c] [2018-01-25 14:29:57 GMT-02:00] Running setup: contact
+[ERROR] [e80159c6-ff66-4acc-91f8-2926aa988ceb] [2018-01-25 14:30:00 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [34f11c2f-b6ad-4b16-bb0b-67257edcf9b9] [2018-01-25 14:30:00 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [02ffa397-3839-44d6-8de3-3e100e319a65] [2018-01-25 14:30:00 GMT-02:00] Running setup: contact
+[INFO] [dabd0659-5398-4efd-859f-37ad68eed769] [2018-01-25 14:30:04 GMT-02:00] Running setup: greeting
+[INFO] [0a073687-c168-4b5d-9925-9b76c5d96ac5] [2018-01-25 14:30:06 GMT-02:00] Running setup: greeting
+[ERROR] [9a7b9db8-da54-448d-ad18-775b31b944b8] [2018-01-25 14:30:07 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [43a6b323-2401-4b8c-952c-9435bac8b8ab] [2018-01-25 14:30:07 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [8b95f447-b592-49fa-b98d-b4e1fdcf7f81] [2018-01-25 14:30:07 GMT-02:00] Running setup: greeting
+[INFO] [80adabcf-94f3-466c-84da-da1696ee85e3] [2018-01-25 14:30:09 GMT-02:00] Running setup: interaction
+[ERROR] [fe1d7ae2-a85f-4663-8e52-78b91922859d] [2018-01-25 14:30:12 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [de6d9c6a-e1eb-4b6f-a31c-fcbc352a982c] [2018-01-25 14:34:28 GMT-02:00] Running setup: goodmorning_user
+[INFO] [9ed135d1-bc85-4942-a10f-94e76b74f0f2] [2018-01-25 14:34:30 GMT-02:00] Running setup: contact
+[INFO] [f9ee1eb7-74ee-48e6-842c-3d8c283367b6] [2018-01-25 14:34:32 GMT-02:00] Running setup: contact
+[ERROR] [5da16bdf-cc2e-431f-8d06-5c06b69d04b4] [2018-01-25 14:34:33 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [858aea0e-2e36-4f14-b0c4-770e84ec3c06] [2018-01-25 14:34:33 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [4f6ec22a-78a6-4dbb-9d2c-b77d209d0e5e] [2018-01-25 14:34:33 GMT-02:00] Running setup: contact
+[INFO] [937d8cf6-0485-4dee-8593-e974102d4d36] [2018-01-25 14:34:34 GMT-02:00] Running setup: greeting
+[INFO] [01944d8f-ab45-4f8f-958d-805b9432d552] [2018-01-25 14:34:36 GMT-02:00] Running setup: greeting
+[ERROR] [bfa191a8-2cdb-495b-8574-ba974f00ff2f] [2018-01-25 14:34:37 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [56727566-7767-446d-b19d-553b741bb2c1] [2018-01-25 14:34:37 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [977f572a-c3c1-48c6-8ff8-cd12a1ba4fd2] [2018-01-25 14:34:37 GMT-02:00] Running setup: greeting
+[INFO] [5771c433-14db-48d2-97c6-483d123225ec] [2018-01-25 14:34:39 GMT-02:00] Running setup: interaction
+[ERROR] [4cac0655-9bac-4810-91bc-a4015b7c4e72] [2018-01-25 14:34:41 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
