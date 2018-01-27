@@ -1938,3 +1938,39 @@
 [INFO] [977f572a-c3c1-48c6-8ff8-cd12a1ba4fd2] [2018-01-25 14:34:37 GMT-02:00] Running setup: greeting
 [INFO] [5771c433-14db-48d2-97c6-483d123225ec] [2018-01-25 14:34:39 GMT-02:00] Running setup: interaction
 [ERROR] [4cac0655-9bac-4810-91bc-a4015b7c4e72] [2018-01-25 14:34:41 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [e9b098c3-f6b7-4341-8037-62d7e4089e52] [2018-01-25 22:33:56 GMT-02:00] Running setup: goodmorning_user
+[INFO] [4af22384-363a-43d2-87d6-3edee83285fa] [2018-01-25 22:35:13 GMT-02:00] Running setup: goodmorning_user
+[ERROR] [dd028dca-0f88-4665-84a2-ca26f33721dd] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [58b47585-8e3f-44cd-bc2b-fa045f41d552] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [cb70f3a1-e19c-49e8-abc5-0f88fb4d808c] [2018-01-25 22:35:13 GMT-02:00] Running setup: contact
+[ERROR] [d111ac7a-e4ee-48b5-ab7f-996c05770291] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [bc474fd4-c150-46df-90e2-0d03df4c114a] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [599803b3-5ceb-4657-997a-4b0aba0def70] [2018-01-25 22:35:13 GMT-02:00] Running setup: contact
+[ERROR] [dbf2eb04-81fa-42e0-8196-5905bc62a85e] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [04ba722a-9cfa-4e40-aa29-72cfb4e6b3c1] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [739622d6-31ea-4490-85ca-c544b41b8518] [2018-01-25 22:35:13 GMT-02:00] Running setup: contact
+[ERROR] [a82daf75-3bd8-4c8f-a581-96734044c8f8] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [5f789746-eb55-4ee9-950b-07f1ae47bba4] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [2bd32440-bb21-491a-a50e-40da80f70684] [2018-01-25 22:35:13 GMT-02:00] Running setup: greeting
+[ERROR] [daceac8e-7f4e-44e7-a1d4-808f4f7e2058] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [5dad1352-c7df-4d93-8097-90fe1ceb9306] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [150956a3-84b4-4ef0-990a-9da7a89afffb] [2018-01-25 22:35:13 GMT-02:00] Running setup: greeting
+[ERROR] [2918c27b-1776-45e1-ae29-82a28a10207e] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [065f3e78-de16-4f0f-8044-a60408e7a51b] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [e9634101-1433-4264-a1fc-abadefb53a35] [2018-01-25 22:35:13 GMT-02:00] Running setup: greeting
+[ERROR] [6facfbda-cb12-4792-8996-206a43874ba1] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [e28ebc69-1333-421d-abd8-ca37e1032428] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [9b4a0afd-b386-415b-8c41-ea5bd36e0f4e] [2018-01-25 22:35:13 GMT-02:00] Running setup: interaction
+[ERROR] [4a148202-8f74-419c-afdf-54d4c7d25d68] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [59d6623e-d03d-4b5f-9950-093bbf559d71] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [97d76a8b-486b-4d55-9c14-a1c399d09fe4] [2018-01-25 22:35:13 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [02f0948f-7f70-4766-94f3-694654b28bad] [2018-01-25 22:35:20 GMT-02:00] Error msg: error("Connection Error")
+[ERROR] [f653238b-2ed4-4c95-b483-cb9554a824c2] [2018-01-25 22:35:26 GMT-02:00] Error msg: error("Connection Error")
+[INFO] [ad7ea413-6ec8-4bad-8703-c776fa350bd2] [2018-01-25 22:37:29 GMT-02:00] Running setup: goodmorning_user
+[INFO] [0216fb8d-3c5b-4bb4-a109-6383eeb743a5] [2018-01-25 22:37:29 GMT-02:00] Running setup: contact
+[INFO] [9d4d63a5-f2b0-412f-97a7-363e5c419b6d] [2018-01-25 22:37:29 GMT-02:00] Running setup: contact
+[INFO] [2e8a12a7-0fa8-4356-aabb-96bd7ebdd8bc] [2018-01-25 22:37:29 GMT-02:00] Running setup: contact
+[INFO] [d67dd232-992e-4265-b05d-84ebf35ee3da] [2018-01-25 22:37:29 GMT-02:00] Running setup: greeting
+[INFO] [0fc76db4-32b2-4700-8f06-dc3b3008e113] [2018-01-25 22:37:29 GMT-02:00] Running setup: greeting
+[INFO] [2c094234-0c9a-48df-bfd4-52dcb34b8a0d] [2018-01-25 22:37:29 GMT-02:00] Running setup: greeting
+[INFO] [7e5843e8-2f48-4da2-865d-c9989d9cab80] [2018-01-25 22:37:29 GMT-02:00] Running setup: interaction
