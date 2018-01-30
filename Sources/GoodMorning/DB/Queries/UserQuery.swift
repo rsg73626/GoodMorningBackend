@@ -19,6 +19,13 @@ class UserQuery {
             let res = try createObj.sql(query, params: [user.name, user.email, user.password!, photo, about])
             let createdId: Int = res.getFieldInt(tupleIndex: 0, fieldIndex: 0) ?? 0
             contacts.forEach {contact in let _ = ContactQuery.create(contact, userId: createdId)}
+            for greetingPreference in [GreetingPreference(type: .GoodMorning, isActive: true, from: Parser.shared.stringToDate("06:01", format: "HH:mm")!),
+                                       GreetingPreference(type: .GoodAfternoon, isActive: true, from: Parser.shared.stringToDate("12:01", format: "HH:mm")!),
+                                       GreetingPreference(type: .GoodEvening, isActive: true, from: Parser.shared.stringToDate("18:01", format: "HH:mm")!),
+                                       GreetingPreference(type: .GoodDawn, isActive: true, from: Parser.shared.stringToDate("00:01", format: "HH:mm")!)] {
+                let createdGreetingPreference = GreetingPreferenceQuery.create(greetingPreference, userId: createdId)
+                print(createdGreetingPreference)
+            }
             return readById(createdId)
         } catch {
             print("Error while creating user: \(error)")
