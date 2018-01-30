@@ -1974,3 +1974,257 @@
 [INFO] [0fc76db4-32b2-4700-8f06-dc3b3008e113] [2018-01-25 22:37:29 GMT-02:00] Running setup: greeting
 [INFO] [2c094234-0c9a-48df-bfd4-52dcb34b8a0d] [2018-01-25 22:37:29 GMT-02:00] Running setup: greeting
 [INFO] [7e5843e8-2f48-4da2-865d-c9989d9cab80] [2018-01-25 22:37:29 GMT-02:00] Running setup: interaction
+[INFO] [3419f3a7-b808-4f72-9e97-ae46fd1a27c4] [2018-01-30 00:07:00 GMT-02:00] Running setup: goodmorning_user
+[INFO] [2bf41c30-1a9c-409f-b12a-da2e67ae9fe2] [2018-01-30 00:07:00 GMT-02:00] Running setup: contact
+[INFO] [f3887e1c-4448-4d0b-9ed6-2f29b431d2cf] [2018-01-30 00:07:00 GMT-02:00] Running setup: contact
+[INFO] [4e20d81c-162c-483b-981e-1efd4cb9ce69] [2018-01-30 00:07:00 GMT-02:00] Running setup: contact
+[INFO] [2cc013a3-15a8-4e7b-86ef-01cc43dd8dcf] [2018-01-30 00:07:00 GMT-02:00] Running setup: greeting
+[INFO] [87a08760-5ae2-40f6-983a-8d4428c015ab] [2018-01-30 00:07:00 GMT-02:00] Running setup: greeting
+[INFO] [e7c49e6c-96f8-4846-a5ad-93f533d2771b] [2018-01-30 00:07:00 GMT-02:00] Running setup: greeting
+[INFO] [5608ee64-47ca-494d-9964-fe2c2500335b] [2018-01-30 00:07:00 GMT-02:00] Running setup: greeting
+[ERROR] [85ecb55e-8b07-48d7-bb15-40b8662e3dd3] [2018-01-30 00:07:00 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"user\"\nLINE 1: ... exists greeting_preference(id serial primary key,user int n...\n                                                             ^")
+[ERROR] [e15d671d-6de6-47ce-b7a9-8487e081d4c6] [2018-01-30 00:07:00 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"user\"\nLINE 1: ... exists greeting_preference(id serial primary key,user int n...\n                                                             ^")
+[INFO] [cd117e7e-d166-43a0-9184-91e550844bc1] [2018-01-30 00:07:00 GMT-02:00] Running setup: interaction
+[INFO] [75b15735-175e-4696-93eb-113dc689d2a9] [2018-01-30 00:09:50 GMT-02:00] Running setup: goodmorning_user
+[INFO] [5fad7983-7f8c-4d24-9d29-39464c33e19a] [2018-01-30 00:09:50 GMT-02:00] Running setup: contact
+[INFO] [f9236d95-88ff-4125-a457-cdfbbcdbaf3c] [2018-01-30 00:09:50 GMT-02:00] Running setup: contact
+[INFO] [2e866572-b486-4edf-891b-2dd3b95c6ffe] [2018-01-30 00:09:50 GMT-02:00] Running setup: contact
+[INFO] [3bf68619-cbbf-4a44-a853-f62254ef5fc0] [2018-01-30 00:09:50 GMT-02:00] Running setup: greeting
+[INFO] [af10091a-51b3-4212-94bc-9ae32892f52b] [2018-01-30 00:09:50 GMT-02:00] Running setup: greeting
+[INFO] [7ed64f6a-26d3-4f27-855e-5ba545f23f81] [2018-01-30 00:09:50 GMT-02:00] Running setup: greeting
+[INFO] [8c3d87b5-4f9f-4d98-adf6-88711fe77c16] [2018-01-30 00:09:50 GMT-02:00] Running setup: greeting
+[ERROR] [6ca28672-96ab-46e4-a6c6-4782ed03f285] [2018-01-30 00:09:50 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"nul\"\nLINE 1: ..._preference(id serial primary key,id_user int not nul,type i...\n                                                             ^")
+[ERROR] [a34d8268-6eb0-472e-aada-aaef988f326c] [2018-01-30 00:09:50 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"nul\"\nLINE 1: ..._preference(id serial primary key,id_user int not nul,type i...\n                                                             ^")
+[INFO] [86fd52b1-d0f1-4ab1-bb58-0ceb23aecb73] [2018-01-30 00:09:50 GMT-02:00] Running setup: interaction
+[INFO] [b810ccc9-c063-442b-9c3a-34d19a7d190e] [2018-01-30 00:19:43 GMT-02:00] Running setup: goodmorning_user
+[INFO] [82801d45-5506-4500-96a8-90e145937e41] [2018-01-30 00:19:43 GMT-02:00] Running setup: contact
+[INFO] [a55e03f8-4897-4ebd-9a38-73b715c7c103] [2018-01-30 00:19:43 GMT-02:00] Running setup: contact
+[INFO] [e6cac630-c33f-41db-a204-cec46dd4ffa5] [2018-01-30 00:19:43 GMT-02:00] Running setup: contact
+[INFO] [c1cdc062-5876-419c-99ad-d84aa3686e2f] [2018-01-30 00:19:43 GMT-02:00] Running setup: greeting
+[INFO] [32567139-0d76-4342-b9fb-270ed4be59e6] [2018-01-30 00:19:43 GMT-02:00] Running setup: greeting
+[INFO] [e545adda-2a1d-470c-bd3d-7cad82745b33] [2018-01-30 00:19:43 GMT-02:00] Running setup: greeting
+[INFO] [6032fd15-7f2b-4796-8b40-349ae2022327] [2018-01-30 00:19:43 GMT-02:00] Running setup: greeting
+[ERROR] [55e4c458-4822-4440-80fd-d431d17f1998] [2018-01-30 00:19:43 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"user\"\nLINE 1: ... exists greeting_preference(id serial primary key,user int n...\n                                                             ^")
+[ERROR] [48d3ca4d-c320-4b40-bb0f-f3b131504bfd] [2018-01-30 00:19:43 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"user\"\nLINE 1: ... exists greeting_preference(id serial primary key,user int n...\n                                                             ^")
+[INFO] [f0073034-06ff-4911-a409-99d50b97232d] [2018-01-30 00:19:43 GMT-02:00] Running setup: interaction
+[INFO] [a07c5623-2402-4009-83cb-e7bb251f455d] [2018-01-30 00:25:03 GMT-02:00] Running setup: goodmorning_user
+[INFO] [5f01a21a-d151-4adb-ac0c-ac08814b0a15] [2018-01-30 00:25:04 GMT-02:00] Running setup: contact
+[INFO] [4566bc42-e6ad-4f4d-98ae-e87ff9bf470c] [2018-01-30 00:25:04 GMT-02:00] Running setup: contact
+[INFO] [4b182db3-db41-464e-aae2-ded6fb9bd284] [2018-01-30 00:25:04 GMT-02:00] Running setup: contact
+[INFO] [68e82eab-38f5-4d89-8032-031e70606c3c] [2018-01-30 00:25:04 GMT-02:00] Running setup: greeting
+[INFO] [c2789015-de5c-4513-9e95-e10bed40a338] [2018-01-30 00:25:04 GMT-02:00] Running setup: greeting
+[INFO] [6ac8abed-8bf0-41b4-b49b-6aa47586c394] [2018-01-30 00:25:04 GMT-02:00] Running setup: greeting
+[INFO] [8305824c-5612-4a9a-855c-d8bf1945d95b] [2018-01-30 00:25:04 GMT-02:00] Running setup: greeting
+[ERROR] [afb2e1d9-b4dc-4ace-bb89-32aaae9aa3a8] [2018-01-30 00:25:04 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"user\"\nLINE 1: ...ences greeting_type (id) on delete cascade,unique(user, type...\n                                                             ^")
+[ERROR] [ec38ebc9-9766-47f4-9008-7ba36e13d6b4] [2018-01-30 00:25:04 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"user\"\nLINE 1: ...ences greeting_type (id) on delete cascade,unique(user, type...\n                                                             ^")
+[INFO] [40b917bc-0854-47ac-9529-f506b7d6da84] [2018-01-30 00:25:04 GMT-02:00] Running setup: interaction
+[INFO] [ba97a8a5-6648-410b-b0ad-27d5f687fd9c] [2018-01-30 00:25:50 GMT-02:00] Running setup: goodmorning_user
+[INFO] [b1e37639-b7f2-44ad-b689-0a8e61c87cc9] [2018-01-30 00:25:50 GMT-02:00] Running setup: contact
+[INFO] [2b942e26-fdc9-44a0-b423-3a159ce5783c] [2018-01-30 00:25:50 GMT-02:00] Running setup: contact
+[INFO] [f80dcb4d-d8a2-43d8-ab88-f94653709a22] [2018-01-30 00:25:51 GMT-02:00] Running setup: contact
+[INFO] [996df777-b7bf-4777-a5ce-2098e083e095] [2018-01-30 00:25:51 GMT-02:00] Running setup: greeting
+[INFO] [3459eacd-6002-4b6f-aa77-33e880208115] [2018-01-30 00:25:51 GMT-02:00] Running setup: greeting
+[INFO] [9fa6eba0-5353-4b3c-b123-fe124213a859] [2018-01-30 00:25:51 GMT-02:00] Running setup: greeting
+[INFO] [f2ba1b34-777e-4d24-9a7d-a65484bd50d7] [2018-01-30 00:25:51 GMT-02:00] Running setup: greeting
+[ERROR] [d9889779-85f9-4f27-80ec-9c9f52c4ef83] [2018-01-30 00:25:51 GMT-02:00] Error msg: error("ERROR:  type \"key\" does not exist\nLINE 1: ...s goodmorning_user (id) on delete cascade,foreigh key (type)...\n                                                             ^")
+[ERROR] [cc1f72ec-1db5-4b46-9a29-0135b8fea0a4] [2018-01-30 00:25:51 GMT-02:00] Error msg: error("ERROR:  type \"key\" does not exist\nLINE 1: ...s goodmorning_user (id) on delete cascade,foreigh key (type)...\n                                                             ^")
+[INFO] [7356dafd-114c-445b-b634-7d19e21ee5dd] [2018-01-30 00:25:51 GMT-02:00] Running setup: interaction
+[INFO] [e0c24085-9ec9-4371-b19b-b3355a559581] [2018-01-30 00:26:53 GMT-02:00] Running setup: goodmorning_user
+[INFO] [d7a53d4d-af6f-4c23-a6e2-6c5ed94521e4] [2018-01-30 00:26:53 GMT-02:00] Running setup: contact
+[INFO] [cf5ff58b-4835-4ffa-a2d6-bc0f57a004f8] [2018-01-30 00:26:53 GMT-02:00] Running setup: contact
+[INFO] [cd77cdd2-c80f-41d6-87b5-ffebd6e609af] [2018-01-30 00:26:53 GMT-02:00] Running setup: contact
+[INFO] [519c237c-c399-4699-af07-e8d8dc2655be] [2018-01-30 00:26:53 GMT-02:00] Running setup: greeting
+[INFO] [d7a59072-35ab-433a-a0a0-949d5ddb834d] [2018-01-30 00:26:53 GMT-02:00] Running setup: greeting
+[INFO] [d5856981-b8b5-4e1b-9f3c-e3d6c17dedf5] [2018-01-30 00:26:53 GMT-02:00] Running setup: greeting
+[INFO] [30591e4e-429c-4630-ab13-fee8d2021e88] [2018-01-30 00:26:53 GMT-02:00] Running setup: greeting
+[INFO] [54711913-7114-4211-9818-86bcd75b3ba3] [2018-01-30 00:26:53 GMT-02:00] Running setup: interaction
+[INFO] [9a057561-9ca1-453c-bf1a-85a5aaeeaec8] [2018-01-30 00:41:03 GMT-02:00] Running setup: goodmorning_user
+[INFO] [09ab1170-e690-4e82-bff7-db701a082ff6] [2018-01-30 00:41:03 GMT-02:00] Running setup: contact
+[INFO] [f6b10023-4a57-480f-a8e4-19a07dbd1d6f] [2018-01-30 00:41:03 GMT-02:00] Running setup: contact
+[INFO] [6a3746f8-4592-4a3f-85cc-83a7f88cdc7b] [2018-01-30 00:41:03 GMT-02:00] Running setup: contact
+[INFO] [a3dbe30f-75ef-447b-98bf-93d9e5240a22] [2018-01-30 00:41:03 GMT-02:00] Running setup: greeting
+[INFO] [a6266ce2-eb58-4f85-9f53-da5a4ef39534] [2018-01-30 00:41:03 GMT-02:00] Running setup: greeting
+[INFO] [553332ef-7fd6-4022-a877-502b370cda72] [2018-01-30 00:41:03 GMT-02:00] Running setup: greeting
+[INFO] [c06c3142-96d0-4312-aaa5-97b00fe31c69] [2018-01-30 00:41:03 GMT-02:00] Running setup: greeting
+[INFO] [e70d68ff-e8aa-4ab1-9e8d-371be9c7eb75] [2018-01-30 00:41:03 GMT-02:00] Running setup: interaction
+[ERROR] [6bbb1130-8542-475f-a606-1bc7d08078dd] [2018-01-30 00:41:03 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"user\"\nLINE 1: insert into greeting_preference(user, type, is_active, from_...\n                                        ^")
+[ERROR] [be8c6a2d-34e4-4790-9d33-49622330a17b] [2018-01-30 00:41:03 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"user\"\nLINE 1: insert into greeting_preference(user, type, is_active, from_...\n                                        ^")
+[ERROR] [cc86e706-7a55-441a-b7ca-ba1d653f5887] [2018-01-30 00:41:03 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"user\"\nLINE 1: insert into greeting_preference(user, type, is_active, from_...\n                                        ^")
+[ERROR] [830ee866-1afa-4d73-ad02-61f5aa50e285] [2018-01-30 00:41:03 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"user\"\nLINE 1: insert into greeting_preference(user, type, is_active, from_...\n                                        ^")
+[INFO] [5a7e7c3e-5938-4038-b4f3-bc737e8e96a6] [2018-01-30 00:46:37 GMT-02:00] Running setup: goodmorning_user
+[INFO] [842362f7-e82b-4ef2-8ae2-f7197b5c4c85] [2018-01-30 00:46:37 GMT-02:00] Running setup: contact
+[INFO] [eef6cb6c-bd70-4cc4-a9d8-c09c843e9910] [2018-01-30 00:46:37 GMT-02:00] Running setup: contact
+[INFO] [4433be1b-bcfe-4984-8894-8c3272cc8858] [2018-01-30 00:46:37 GMT-02:00] Running setup: contact
+[INFO] [5ebaf368-50d3-441a-8c94-0f72517ccb44] [2018-01-30 00:46:37 GMT-02:00] Running setup: greeting
+[INFO] [4df132a9-62e4-493e-b979-041b26e8680d] [2018-01-30 00:46:37 GMT-02:00] Running setup: greeting
+[INFO] [0f1b7e27-82ed-4fe4-afe4-2c68a09166c0] [2018-01-30 00:46:37 GMT-02:00] Running setup: greeting
+[INFO] [79ca2b0c-ec0f-439f-ae3a-8324c24b6d23] [2018-01-30 00:46:37 GMT-02:00] Running setup: greeting
+[INFO] [8c14e073-8005-4f4b-afae-61bb2d20cc31] [2018-01-30 00:46:37 GMT-02:00] Running setup: interaction
+[ERROR] [226a4cff-988d-4b42-850f-427ab4a44b52] [2018-01-30 00:46:37 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"value\"\nLINE 1: ...id_user, type, is_active, from_time, from_string) value($1, ...\n                                                             ^")
+[ERROR] [e0c7f400-fed6-4177-86ee-f3d12976cecd] [2018-01-30 00:46:37 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"value\"\nLINE 1: ...id_user, type, is_active, from_time, from_string) value($1, ...\n                                                             ^")
+[ERROR] [5d7dd483-4669-4642-8ca6-87bb7b6ecfc9] [2018-01-30 00:46:37 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"value\"\nLINE 1: ...id_user, type, is_active, from_time, from_string) value($1, ...\n                                                             ^")
+[ERROR] [d532a9c5-8353-4970-9c0f-daffdede3e9a] [2018-01-30 00:46:37 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"value\"\nLINE 1: ...id_user, type, is_active, from_time, from_string) value($1, ...\n                                                             ^")
+[INFO] [8ff5873c-1400-4170-a16c-814a0a5861ba] [2018-01-30 00:53:15 GMT-02:00] Running setup: goodmorning_user
+[INFO] [e5ac2b05-3054-4a36-b780-e51f80d817ca] [2018-01-30 00:53:15 GMT-02:00] Running setup: contact
+[INFO] [0b56b0cd-513f-452d-9358-59c1e7d1b24e] [2018-01-30 00:53:15 GMT-02:00] Running setup: contact
+[INFO] [f67f5f64-4454-4e02-88a4-d381e1fdae40] [2018-01-30 00:53:15 GMT-02:00] Running setup: contact
+[INFO] [36378fa1-6f45-4901-8fb4-5e9936a653f5] [2018-01-30 00:53:15 GMT-02:00] Running setup: greeting
+[INFO] [a576e0ba-4e49-4205-a1b7-43413401edff] [2018-01-30 00:53:15 GMT-02:00] Running setup: greeting
+[INFO] [1bea6442-f858-495b-a92e-9fc24b369101] [2018-01-30 00:53:15 GMT-02:00] Running setup: greeting
+[INFO] [cb690028-6d58-4f40-9fd8-4566ee196034] [2018-01-30 00:53:15 GMT-02:00] Running setup: greeting
+[INFO] [dfae1f84-abe5-4a4a-8c33-acb07d3c2297] [2018-01-30 00:53:15 GMT-02:00] Running setup: interaction
+[ERROR] [69ea9324-83e6-4b0a-8557-e33c25259a6f] [2018-01-30 00:53:15 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"value\"\nLINE 1: ...id_user, type, is_active, from_time, from_string) value($1, ...\n                                                             ^")
+[ERROR] [d77e892d-4a7d-48dd-8bf9-5c721eda213b] [2018-01-30 00:53:15 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"value\"\nLINE 1: ...id_user, type, is_active, from_time, from_string) value($1, ...\n                                                             ^")
+[ERROR] [67a38993-2c4c-4004-9a2d-aafdc9ec3e0d] [2018-01-30 00:53:15 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"value\"\nLINE 1: ...id_user, type, is_active, from_time, from_string) value($1, ...\n                                                             ^")
+[ERROR] [2b56a556-7fcf-46ec-9c30-68b00f93dc19] [2018-01-30 00:53:15 GMT-02:00] Error msg: error("ERROR:  syntax error at or near \"value\"\nLINE 1: ...id_user, type, is_active, from_time, from_string) value($1, ...\n                                                             ^")
+[INFO] [31828744-abd4-4411-be61-dbb45d296482] [2018-01-30 00:55:20 GMT-02:00] Running setup: goodmorning_user
+[INFO] [e45c7490-5725-4a0b-8c6c-e301e126ef0c] [2018-01-30 00:55:20 GMT-02:00] Running setup: contact
+[INFO] [ff43b8ef-09f7-4bf0-9df4-ccaba81a16fb] [2018-01-30 00:55:20 GMT-02:00] Running setup: contact
+[INFO] [cf25a389-a6c4-4104-a96c-27930d5a3592] [2018-01-30 00:55:20 GMT-02:00] Running setup: contact
+[INFO] [88a3d6e6-f632-41ea-91c7-8355e9290e81] [2018-01-30 00:55:20 GMT-02:00] Running setup: greeting
+[INFO] [8849c545-241e-4b1c-abb3-f8bd193c34a9] [2018-01-30 00:55:20 GMT-02:00] Running setup: greeting
+[INFO] [04142545-1c5e-4a57-9eb0-585a3530581d] [2018-01-30 00:55:20 GMT-02:00] Running setup: greeting
+[INFO] [af4c582f-9d1d-4667-b6eb-7e22068532e5] [2018-01-30 00:55:20 GMT-02:00] Running setup: greeting
+[INFO] [60e5839d-b9e5-49d8-84d0-b16742354704] [2018-01-30 00:55:20 GMT-02:00] Running setup: interaction
+[ERROR] [0054ba16-702b-4dc0-badf-233ca091d3f6] [2018-01-30 00:55:20 GMT-02:00] Error msg: error("ERROR:  invalid input syntax for type boolean: \"Optional(true)\"")
+[ERROR] [ac7d7af4-26f8-48c0-8de1-502e8f26de02] [2018-01-30 00:55:20 GMT-02:00] Error msg: error("ERROR:  invalid input syntax for type boolean: \"Optional(true)\"")
+[ERROR] [fe0c9c48-7459-431d-ac1b-296f23147b9f] [2018-01-30 00:55:20 GMT-02:00] Error msg: error("ERROR:  invalid input syntax for type boolean: \"Optional(true)\"")
+[ERROR] [37fdd6c3-cc21-4b04-a03c-10287ac5b91c] [2018-01-30 00:55:20 GMT-02:00] Error msg: error("ERROR:  invalid input syntax for type boolean: \"Optional(true)\"")
+[INFO] [3cea13b8-5e4c-4ec3-86dc-786614d3ce1b] [2018-01-30 00:57:00 GMT-02:00] Running setup: goodmorning_user
+[INFO] [d271089b-dcdc-4d3a-889b-4ce261a60187] [2018-01-30 00:57:00 GMT-02:00] Running setup: contact
+[INFO] [e6c44a34-0f0d-4d5f-83e5-7dd8c86c8370] [2018-01-30 00:57:00 GMT-02:00] Running setup: contact
+[INFO] [54a314c5-fcf1-4dfe-94e0-c724d42cf495] [2018-01-30 00:57:00 GMT-02:00] Running setup: contact
+[INFO] [3392399b-5d30-473b-bd53-bc3c8d2161cf] [2018-01-30 00:57:00 GMT-02:00] Running setup: greeting
+[INFO] [c29bb532-1c7d-42b5-a2ca-fd5d3321d293] [2018-01-30 00:57:01 GMT-02:00] Running setup: greeting
+[INFO] [8d94c459-66a1-467e-8fea-10e804a4f0d8] [2018-01-30 00:57:01 GMT-02:00] Running setup: greeting
+[INFO] [c7dfa7b2-2db3-42f8-854d-d93e579d3740] [2018-01-30 00:57:01 GMT-02:00] Running setup: greeting
+[INFO] [ed7c0ad0-476c-485b-a168-aad73375a365] [2018-01-30 00:57:01 GMT-02:00] Running setup: interaction
+[ERROR] [45d5b780-0e81-420c-9f77-cb6db8e2e34b] [2018-01-30 00:57:01 GMT-02:00] Error msg: error("ERROR:  value too long for type character varying(5)")
+[ERROR] [9405afbf-88c9-4a45-ad70-4d1b9e6ab317] [2018-01-30 00:57:01 GMT-02:00] Error msg: error("ERROR:  value too long for type character varying(5)")
+[ERROR] [c3c348ee-0b27-4305-886b-f8c12fdac7a4] [2018-01-30 00:57:01 GMT-02:00] Error msg: error("ERROR:  value too long for type character varying(5)")
+[ERROR] [1fe5891c-31ca-460d-abd3-89ba2863955e] [2018-01-30 00:57:01 GMT-02:00] Error msg: error("ERROR:  value too long for type character varying(5)")
+[INFO] [5d90a79a-7faf-4be2-9e80-fec4ca7c0c17] [2018-01-30 00:58:04 GMT-02:00] Running setup: goodmorning_user
+[INFO] [a11c617b-8084-4053-bc2c-d4ce65d1d224] [2018-01-30 00:58:04 GMT-02:00] Running setup: contact
+[INFO] [ad56db10-8034-4fdc-8bff-b93d94bd5745] [2018-01-30 00:58:04 GMT-02:00] Running setup: contact
+[INFO] [e3b14228-9d49-4752-b873-6eb9f65644bc] [2018-01-30 00:58:04 GMT-02:00] Running setup: contact
+[INFO] [b5081ae4-0611-4fa7-99f5-f4b8abdaacb3] [2018-01-30 00:58:04 GMT-02:00] Running setup: greeting
+[INFO] [46ce6781-f8b1-45b3-99f4-7f4e249a6492] [2018-01-30 00:58:04 GMT-02:00] Running setup: greeting
+[INFO] [22555a55-8598-4a04-858b-0984ae127cd0] [2018-01-30 00:58:04 GMT-02:00] Running setup: greeting
+[INFO] [5de9b8d7-d9b3-4cc3-a19b-cdbdf19b33d6] [2018-01-30 00:58:04 GMT-02:00] Running setup: greeting
+[INFO] [4c215887-c98e-4a11-abd6-28b4da063fa0] [2018-01-30 00:58:04 GMT-02:00] Running setup: interaction
+[INFO] [9f0acca9-d503-4f84-91ba-13d3573361d3] [2018-01-30 01:15:43 GMT-02:00] Running setup: goodmorning_user
+[INFO] [482e9651-32cf-4d95-874f-73245971a46e] [2018-01-30 01:15:43 GMT-02:00] Running setup: contact
+[INFO] [28b00396-7627-4cf0-be7a-5b0c227f11f1] [2018-01-30 01:15:43 GMT-02:00] Running setup: contact
+[INFO] [7984bf07-fa47-4624-a0d9-985bcc93a9fb] [2018-01-30 01:15:43 GMT-02:00] Running setup: contact
+[INFO] [a0ac180e-bcb9-4e38-8ced-1073f545e9bc] [2018-01-30 01:15:43 GMT-02:00] Running setup: greeting
+[INFO] [2d9a736b-1f80-44af-bd00-e9b3f8bc89ad] [2018-01-30 01:15:43 GMT-02:00] Running setup: greeting
+[INFO] [4c17ad75-5afe-4571-8adf-de90a1e5f8db] [2018-01-30 01:15:43 GMT-02:00] Running setup: greeting
+[INFO] [f3fb72d2-4932-4f11-9698-9a3a80059876] [2018-01-30 01:15:43 GMT-02:00] Running setup: greeting
+[INFO] [0d8bcf19-c96a-4c8a-827e-4deab8667e31] [2018-01-30 01:15:43 GMT-02:00] Running setup: interaction
+[INFO] [62ca0477-ff1b-4386-8be5-bcb1f3f2c8a6] [2018-01-30 02:11:32 GMT-02:00] Running setup: goodmorning_user
+[INFO] [cdb7b807-c7b1-47f3-9b65-bd77a235670e] [2018-01-30 02:11:32 GMT-02:00] Running setup: contact
+[INFO] [5e6c2b4a-e2c1-489a-b79b-db62798cbbd0] [2018-01-30 02:11:32 GMT-02:00] Running setup: contact
+[ERROR] [50143a9b-0a8a-418d-8e07-76f3b401df6d] [2018-01-30 02:11:32 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [50f8d5cf-b452-4c13-8ade-804a5764b885] [2018-01-30 02:11:32 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [7e9529fb-9d26-44b3-9fab-7e4f8a4ac476] [2018-01-30 02:11:32 GMT-02:00] Running setup: contact
+[INFO] [ca26974c-8d95-4ca5-8aab-3429ca497881] [2018-01-30 02:11:32 GMT-02:00] Running setup: greeting
+[INFO] [92ff42a0-0a31-4312-b41b-6487cf4b7769] [2018-01-30 02:11:32 GMT-02:00] Running setup: greeting
+[ERROR] [e47aa694-c42a-4734-b259-fb2d90b7b485] [2018-01-30 02:11:32 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [c8122fdc-f03b-4d5b-8329-8e4253d3ab82] [2018-01-30 02:11:32 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [e9c0b45e-3d66-48ea-b397-9b8bd828ed64] [2018-01-30 02:11:32 GMT-02:00] Running setup: greeting
+[INFO] [e7b131ce-1635-4ef0-bc20-73ab594cd9fd] [2018-01-30 02:11:32 GMT-02:00] Running setup: greeting
+[INFO] [d9694a2b-014d-488c-b050-6cfeb5c9be02] [2018-01-30 02:11:32 GMT-02:00] Running setup: interaction
+[ERROR] [7f729817-d4fd-4426-ae45-13e719ff1aaa] [2018-01-30 02:11:32 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [e7c3343d-6603-4c6b-b6e3-4c9e32a22847] [2018-01-30 02:14:53 GMT-02:00] Running setup: goodmorning_user
+[INFO] [141ad8d3-cee5-4db7-9b77-41b8a2e444c4] [2018-01-30 02:14:53 GMT-02:00] Running setup: contact
+[INFO] [fb922720-2523-432a-8498-caf444e69f67] [2018-01-30 02:14:53 GMT-02:00] Running setup: contact
+[ERROR] [a25b7131-d929-4a3b-b086-228ebcd1a1b0] [2018-01-30 02:14:53 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [dc302a62-64a2-4b3f-9b7f-4eecc24e9f99] [2018-01-30 02:14:53 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [313e70ba-0cfe-4ebb-be18-a8457e951f2d] [2018-01-30 02:14:53 GMT-02:00] Running setup: contact
+[INFO] [0ab932bd-b6f1-4f6d-9bb4-430ad61957da] [2018-01-30 02:14:53 GMT-02:00] Running setup: greeting
+[INFO] [8c9ceb1c-b52e-4625-b2f8-cadb932b2280] [2018-01-30 02:14:53 GMT-02:00] Running setup: greeting
+[ERROR] [9873ca10-ae66-4a57-90bf-5e6032948772] [2018-01-30 02:14:53 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [a57c6cc5-39b9-4a00-8665-7bff6cb45d0c] [2018-01-30 02:14:53 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [6f0540df-4a89-40a3-be2e-fdaaa9d1ea8f] [2018-01-30 02:14:53 GMT-02:00] Running setup: greeting
+[INFO] [52418bb6-4e6a-4d5d-ab96-f6f9463cffac] [2018-01-30 02:14:53 GMT-02:00] Running setup: greeting
+[INFO] [70c8d93b-aa0b-4d1d-8b10-2eddee9ceb0c] [2018-01-30 02:14:53 GMT-02:00] Running setup: interaction
+[ERROR] [2db07f81-3249-43cb-b4be-369c87b135be] [2018-01-30 02:14:53 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [f5ad48d2-6ee0-4478-a211-20675ff16d7f] [2018-01-30 02:20:16 GMT-02:00] Running setup: goodmorning_user
+[INFO] [8f1c9ebb-94e3-4248-9353-d545266de07c] [2018-01-30 02:20:16 GMT-02:00] Running setup: contact
+[INFO] [2455a21c-95aa-4b44-a13b-e3bafdd14637] [2018-01-30 02:20:16 GMT-02:00] Running setup: contact
+[INFO] [0ed2be91-a459-4017-96aa-e2f65ae3bffa] [2018-01-30 02:20:16 GMT-02:00] Running setup: contact
+[INFO] [f34a76fa-48a3-46e7-886a-a02fe5025799] [2018-01-30 02:20:16 GMT-02:00] Running setup: greeting
+[INFO] [4887e303-dac3-421f-bb2f-1b015b816439] [2018-01-30 02:20:16 GMT-02:00] Running setup: greeting
+[INFO] [6b746fa0-9c6c-4edb-b12e-e9c6bd746704] [2018-01-30 02:20:16 GMT-02:00] Running setup: greeting
+[INFO] [28e50e26-89b5-4de5-a307-8e014ad802da] [2018-01-30 02:20:16 GMT-02:00] Running setup: greeting
+[INFO] [a22efc6e-ce4d-4b1d-9912-ef5607ce1a18] [2018-01-30 02:20:17 GMT-02:00] Running setup: interaction
+[INFO] [eeb8fba5-675c-4c46-b8cc-ee18715d6e65] [2018-01-30 02:21:23 GMT-02:00] Running setup: goodmorning_user
+[INFO] [f813f17f-a693-43e4-8c5b-06cf6cde1789] [2018-01-30 02:21:23 GMT-02:00] Running setup: contact
+[INFO] [424fe038-e2bc-4b6f-9df0-d110b135da3d] [2018-01-30 02:21:23 GMT-02:00] Running setup: contact
+[ERROR] [d31b4f5f-1cd5-4d7d-b926-aa781e1f538d] [2018-01-30 02:21:23 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [7fe776d7-a10a-45b5-98e5-5d92378e1cba] [2018-01-30 02:21:23 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [0926a37f-a0df-4674-89b0-2a5856fef9d4] [2018-01-30 02:21:23 GMT-02:00] Running setup: contact
+[INFO] [0945ee66-f94f-4a77-a3d9-84a24520c7f9] [2018-01-30 02:21:23 GMT-02:00] Running setup: greeting
+[INFO] [5e6fcf4d-c84e-4168-8eec-772acd8572b7] [2018-01-30 02:21:23 GMT-02:00] Running setup: greeting
+[ERROR] [cbc1f284-0759-4207-bd62-f8646f839121] [2018-01-30 02:21:23 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [04c72c10-60b4-477b-9d26-1a0eeecb8ec7] [2018-01-30 02:21:23 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [eea9abcc-ed89-46d9-92bd-35c3f616bba5] [2018-01-30 02:21:23 GMT-02:00] Running setup: greeting
+[INFO] [274f6293-14bf-4db3-9c6d-78f50f51b274] [2018-01-30 02:21:23 GMT-02:00] Running setup: greeting
+[INFO] [4b750a11-adaa-419d-9708-550ba4e86592] [2018-01-30 02:21:23 GMT-02:00] Running setup: interaction
+[ERROR] [15e96e29-e1bc-4587-b9a1-b021fa5a9995] [2018-01-30 02:21:23 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [9647bb2d-ecbc-4b4e-8c97-fb02ddcef3ec] [2018-01-30 02:27:08 GMT-02:00] Running setup: goodmorning_user
+[INFO] [79f67cdb-fc03-4fff-b829-26436c3161a3] [2018-01-30 02:27:08 GMT-02:00] Running setup: contact
+[INFO] [73f0ce04-3e45-4587-b44d-7345dc929064] [2018-01-30 02:27:08 GMT-02:00] Running setup: contact
+[ERROR] [a3ab1226-3cf1-44e5-9c41-ad856957c549] [2018-01-30 02:27:08 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [5111acc4-b191-410d-a9ae-66c02fab6829] [2018-01-30 02:27:08 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [836f8aa9-30ee-4e0d-96be-9ff9b03745db] [2018-01-30 02:27:08 GMT-02:00] Running setup: contact
+[INFO] [df8d4bfd-7043-418f-b0c9-5a57789250ff] [2018-01-30 02:27:08 GMT-02:00] Running setup: greeting
+[INFO] [c7e20b77-9d08-4dcd-a3c1-69a0ec7b317d] [2018-01-30 02:27:08 GMT-02:00] Running setup: greeting
+[ERROR] [f92123b1-303c-452b-a994-5f7bcbc1b4b0] [2018-01-30 02:27:08 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [5b06db33-616b-492e-9b20-aefda8cf7520] [2018-01-30 02:27:08 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [639510fa-8823-4b61-9e06-e6c5f83a9cde] [2018-01-30 02:27:08 GMT-02:00] Running setup: greeting
+[INFO] [8ece72cf-87c2-4020-8854-0a8b2e36bd41] [2018-01-30 02:27:08 GMT-02:00] Running setup: greeting
+[INFO] [d01f1bea-1dbe-41d5-b2d7-e24441024f2f] [2018-01-30 02:27:08 GMT-02:00] Running setup: interaction
+[ERROR] [b1cf7f41-6431-4cd3-a8d7-c164c52a6adf] [2018-01-30 02:27:08 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [fa64ddea-5106-40be-9cfe-f96a8bcf739e] [2018-01-30 02:33:13 GMT-02:00] Running setup: goodmorning_user
+[INFO] [2a81b02a-e7c1-428e-bfe3-918c98af5812] [2018-01-30 02:33:13 GMT-02:00] Running setup: contact
+[INFO] [68ef10a0-f6b1-4cb3-8397-3bda86f3d398] [2018-01-30 02:33:13 GMT-02:00] Running setup: contact
+[ERROR] [6e532d41-ff75-4e93-837e-d07465ce18ba] [2018-01-30 02:33:13 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [f0049779-ba9a-4840-aa8b-15f556c7d4ae] [2018-01-30 02:33:13 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [31c584fb-696d-4fc3-bf9a-822c7b66a7a8] [2018-01-30 02:33:13 GMT-02:00] Running setup: contact
+[INFO] [76af5d9f-f8b1-4324-a65d-0c773da90969] [2018-01-30 02:33:13 GMT-02:00] Running setup: greeting
+[INFO] [82ca703e-0d0c-43d9-9798-cb6b1310ac9d] [2018-01-30 02:33:13 GMT-02:00] Running setup: greeting
+[ERROR] [1459e6ba-414f-4df9-ab45-3229c35d52ae] [2018-01-30 02:33:13 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [e9320b7c-b14e-49fd-b4ac-b67d673925a8] [2018-01-30 02:33:13 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [ee575b75-9d09-4473-8fa4-5a257ad0e28d] [2018-01-30 02:33:13 GMT-02:00] Running setup: greeting
+[INFO] [a81bf6fe-68d4-414d-a0b9-46e5e796684c] [2018-01-30 02:33:13 GMT-02:00] Running setup: greeting
+[INFO] [67524c2c-7255-4348-96d9-5d29f11c727b] [2018-01-30 02:33:13 GMT-02:00] Running setup: interaction
+[ERROR] [88fed198-4268-4015-a662-deb97d1365fe] [2018-01-30 02:33:13 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [2980d2f8-976b-4025-83ec-9f3e2c51cddd] [2018-01-30 02:34:28 GMT-02:00] Running setup: goodmorning_user
+[INFO] [c196829a-77fc-42c0-88bf-773defb02c44] [2018-01-30 02:34:29 GMT-02:00] Running setup: contact
+[INFO] [7485705e-6d67-4134-a2cd-6f47cf9d9bb3] [2018-01-30 02:34:29 GMT-02:00] Running setup: contact
+[ERROR] [cce9c030-609c-447e-a42e-93649320ab83] [2018-01-30 02:34:29 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [40874e23-72b4-4ee5-8281-69018e80529a] [2018-01-30 02:34:29 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [e19cddff-af74-4857-8073-c037eb7337e8] [2018-01-30 02:34:29 GMT-02:00] Running setup: contact
+[INFO] [e4376898-35f1-4fa0-a09c-34cb8ada6ac0] [2018-01-30 02:34:29 GMT-02:00] Running setup: greeting
+[INFO] [4f189bea-f7a2-4d8e-9173-c198a19f0e26] [2018-01-30 02:34:29 GMT-02:00] Running setup: greeting
+[ERROR] [4f257072-4607-4d62-9cce-73631a1cf3ff] [2018-01-30 02:34:29 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [7fde21c2-2e4f-49fc-8e7f-6b42f2ab255d] [2018-01-30 02:34:29 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [c31e11ec-5606-4579-ad9f-cf0d4c79116e] [2018-01-30 02:34:29 GMT-02:00] Running setup: greeting
+[INFO] [89192c36-4368-47db-8c5b-a5edcd857e93] [2018-01-30 02:34:29 GMT-02:00] Running setup: greeting
+[INFO] [489a2cad-bd4e-4d4f-998a-7d8bbc86c71f] [2018-01-30 02:34:29 GMT-02:00] Running setup: interaction
+[ERROR] [74496af3-c96a-4360-ae1f-195f4dfcb378] [2018-01-30 02:34:29 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [fedb6006-8c83-4803-bb07-c70c2fae555f] [2018-01-30 02:34:50 GMT-02:00] Running setup: goodmorning_user
+[INFO] [1223b645-55bb-41c7-a8cc-7e7c19125fce] [2018-01-30 02:34:50 GMT-02:00] Running setup: contact
+[INFO] [145f82c3-2a79-4a8d-8d1d-90467d2dec69] [2018-01-30 02:34:50 GMT-02:00] Running setup: contact
+[ERROR] [4080a210-11e1-4071-8d12-dd5abb7a0b11] [2018-01-30 02:34:50 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [dbc34dfa-0781-48b7-83b0-a0cba1996c15] [2018-01-30 02:34:50 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [70efbf07-f9e7-49fc-b329-15a76fb987fd] [2018-01-30 02:34:50 GMT-02:00] Running setup: contact
+[INFO] [dbe9aef1-da6d-42f1-9ae0-997450648b5a] [2018-01-30 02:34:50 GMT-02:00] Running setup: greeting
+[INFO] [998d5ab3-b764-45c5-a819-9c06cab87700] [2018-01-30 02:34:50 GMT-02:00] Running setup: greeting
+[ERROR] [7b9f9cfc-06b5-4ba7-9cbf-e63f59a2db61] [2018-01-30 02:34:50 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [755de6bc-0464-4a28-a392-baa06c2271e4] [2018-01-30 02:34:50 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [8e664480-963d-4c0b-ac92-13d03b18d749] [2018-01-30 02:34:50 GMT-02:00] Running setup: greeting
+[INFO] [f4967db0-b287-488e-adc2-2260262d9ea1] [2018-01-30 02:34:50 GMT-02:00] Running setup: greeting
+[INFO] [665cd3f7-64af-450e-8afe-197a88099143] [2018-01-30 02:34:50 GMT-02:00] Running setup: interaction
+[ERROR] [d9f0a7f2-4bbd-49bc-872b-40ab0bc30bc4] [2018-01-30 02:34:50 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")

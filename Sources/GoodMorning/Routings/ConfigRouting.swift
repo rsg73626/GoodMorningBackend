@@ -9,13 +9,16 @@ class ConfigRouting{
         //MARK: User routing
         routes.add(UserRouting.makeURLRoutes())
         
-        //MARK: Contact routingadd
+        //MARK: Contact routing
         routes.add(ContactRouting.makeURLRoutes())
         
         //MARK: Greeting routingadd
         routes.add(GreetingRouting.makeURLRoutes())
         
-        //MARK: Interaction routingadd
+        //MARK: Greeting preference routing
+        routes.add(GreetingPreferenceRouting.makeURLRoutes())
+        
+        //MARK: Interaction routing
         routes.add(InteractionRouting.makeURLRoutes())
         
         return routes
