@@ -39,6 +39,16 @@ struct GreetingTable {
     static let creationDate = "creation_date"
 }
 
+struct GreetingPreferenceTable {
+    static let tableName = "greeting_preference"
+    static let id = "id"
+    static let user = "id_user"
+    static let type = "type"
+    static let isActive = "is_active"
+    static let fromTime = "from_time"
+    static let fromString = "from_string"
+}
+
 struct InteractionTable {
     static let tableName = "interaction"
     static let id = "id"
