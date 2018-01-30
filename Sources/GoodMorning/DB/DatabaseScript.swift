@@ -32,6 +32,18 @@ create table if not exists greeting_type(
  
  insert into greeting_type(description) values('GoodMorning'),('GoodAfternoon'),('GoodEvening'),('GoodDawn');
 
+ create table if not exists greeting_preference(
+     id serial primary key,
+     id_user int not null,
+     type int not null,
+     is_active boolean not null,
+     from_time timestamp not null,
+     from_string varchar(16),
+     foreign key (id_user) references goodmorning_user (id) on delete cascade,
+     foreign key (type) references greeting_type (id) on delete cascade,
+     unique(id_user, type)
+ );
+ 
 create table if not exists greeting(
     id serial primary key,
     type int not null,

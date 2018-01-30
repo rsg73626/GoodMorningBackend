@@ -47,6 +47,7 @@ class ConfigDB {
         try? greeting.setup("create table if not exists greeting_type(id serial primary key,description varchar(50) not null unique);")
         try? greeting.setup("insert into greeting_type(description) values('GoodMorning'),('GoodAfternoon'),('GoodEvening'),('GoodDawn');")
         try? greeting.setup("create table if not exists greeting(id serial primary key,type int not null,creator int not null,message text not null,creation_string varchar(10) not null,creation_date date not null,foreign key (type) references greeting_type (id),foreign key (creator) references goodmorning_user (id) on delete cascade);")
+        try? greeting.setup("create table if not exists greeting_preference(id serial primary key,id_user int not null,type int not null,is_active boolean not null,from_time timestamp not null,from_string varchar(16),foreign key (id_user) references goodmorning_user (id) on delete cascade,foreign key (type) references greeting_type (id) on delete cascade,unique(id_user, type));");
     }
     
     private static func createInteractionTable(){
