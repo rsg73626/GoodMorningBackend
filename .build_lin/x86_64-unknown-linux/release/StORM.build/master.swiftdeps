@@ -1,0 +1,15 @@
+version: "Swift version 4.0 (swift-4.0-RELEASE)"
+options: "39d60b1a432e15e1783a599b3258cf51"
+build_time: [1517581851, 653945173]
+inputs:
+  "/perfectbuild/.build/checkouts/StORM.git-3709339246029126300/Sources/StORM/StORM.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/StORM.git-3709339246029126300/Sources/StORM/StORMConnect.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/StORM.git-3709339246029126300/Sources/StORM/StORMCursor.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/StORM.git-3709339246029126300/Sources/StORM/StORMDataSource.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/StORM.git-3709339246029126300/Sources/StORM/StORMDataSourceCredentials.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/StORM.git-3709339246029126300/Sources/StORM/StORMDataSourceOptions.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/StORM.git-3709339246029126300/Sources/StORM/StORMError.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/StORM.git-3709339246029126300/Sources/StORM/StORMJoins.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/StORM.git-3709339246029126300/Sources/StORM/StORMProtocol.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/StORM.git-3709339246029126300/Sources/StORM/StORMRow.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/StORM.git-3709339246029126300/Sources/StORM/StORMtResultSet.swift": [9223372036, 854775807]

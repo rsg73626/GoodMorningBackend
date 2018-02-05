@@ -1,0 +1,162 @@
+{
+  "": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GoodMorning.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GoodMorning.o",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/master.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/ConfigDB.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/ConfigDB.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ConfigDB~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ConfigDB.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/DatabaseScript.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/DatabaseScript.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DatabaseScript~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DatabaseScript.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Models/Contact.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Models/Contact.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Contact~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Contact.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Models/Greeting.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Models/Greeting.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Greeting~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Greeting.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Models/GreetingPreference.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Models/GreetingPreference.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingPreference~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingPreference.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Models/Interaction.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Models/Interaction.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Interaction~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Interaction.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Models/User.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Models/User.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/User~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/User.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Queries/ContactQuery.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Queries/ContactQuery.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ContactQuery~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ContactQuery.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Queries/GreetingPreferenceQuery.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Queries/GreetingPreferenceQuery.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingPreferenceQuery~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingPreferenceQuery.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Queries/GreetingQuery.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Queries/GreetingQuery.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingQuery~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingQuery.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Queries/InteractionQuery.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Queries/InteractionQuery.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/InteractionQuery~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/InteractionQuery.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Queries/UserQuery.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Queries/UserQuery.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/UserQuery~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/UserQuery.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Seeds/GreetingSeed.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Seeds/GreetingSeed.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingSeed~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingSeed.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Seeds/InteractionSeed.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Seeds/InteractionSeed.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/InteractionSeed~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/InteractionSeed.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Seeds/SeedProtocol.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Seeds/SeedProtocol.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/SeedProtocol~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/SeedProtocol.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/DB/Seeds/UserSeed.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/DB/Seeds/UserSeed.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/UserSeed~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/UserSeed.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Handlers/ContactHandler.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Handlers/ContactHandler.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ContactHandler~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ContactHandler.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Handlers/GreetingHandler.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Handlers/GreetingHandler.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingHandler~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingHandler.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Handlers/GreetingPreferenceHandler.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Handlers/GreetingPreferenceHandler.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingPreferenceHandler~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingPreferenceHandler.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Handlers/InteractionHandler.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Handlers/InteractionHandler.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/InteractionHandler~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/InteractionHandler.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Handlers/UserHandler.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Handlers/UserHandler.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/UserHandler~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/UserHandler.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/main.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/main.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/main~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/main.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Routings/ConfigRouting.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Routings/ConfigRouting.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ConfigRouting~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ConfigRouting.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Routings/ContactRouting.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Routings/ContactRouting.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ContactRouting~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ContactRouting.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Routings/GreetingPreferenceRouting.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Routings/GreetingPreferenceRouting.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingPreferenceRouting~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingPreferenceRouting.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Routings/GreetingRouting.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Routings/GreetingRouting.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingRouting~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/GreetingRouting.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Routings/InteractionRouting.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Routings/InteractionRouting.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/InteractionRouting~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/InteractionRouting.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Routings/UserRouting.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Routings/UserRouting.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/UserRouting~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/UserRouting.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Utils/ErrorsManager.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Utils/ErrorsManager.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ErrorsManager~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/ErrorsManager.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Utils/Parser.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Utils/Parser.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Parser~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Parser.swiftdeps"
+  },
+  "/perfectbuild/Sources/GoodMorning/Utils/Types.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Utils/Types.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Types~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/GoodMorning.build/Types.swiftdeps"
+  }
+}

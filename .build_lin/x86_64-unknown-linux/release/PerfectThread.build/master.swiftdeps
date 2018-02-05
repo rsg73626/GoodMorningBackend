@@ -1,0 +1,7 @@
+version: "Swift version 4.0 (swift-4.0-RELEASE)"
+options: "f21858965ed04787d3ae204d876128e3"
+build_time: [1517581849, 805136670]
+inputs:
+  "/perfectbuild/.build/checkouts/Perfect-Thread.git-8511006113101465920/Sources/Promise.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Thread.git-8511006113101465920/Sources/Threading.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Thread.git-8511006113101465920/Sources/ThreadQueue.swift": [9223372036, 854775807]

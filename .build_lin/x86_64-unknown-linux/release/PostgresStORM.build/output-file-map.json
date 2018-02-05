@@ -1,0 +1,67 @@
+{
+  "": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/PostgresStORM.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/PostgresStORM.o",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/master.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Convenience.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Convenience.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Convenience~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Convenience.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/DataConverters.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/DataConverters.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/DataConverters~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/DataConverters.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Delete.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Delete.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Delete~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Delete.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Insert.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Insert.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Insert~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Insert.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/parseRows.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/parseRows.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/parseRows~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/parseRows.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/PostgresConnect.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/PostgresConnect.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/PostgresConnect~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/PostgresConnect.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/PostgresMap.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/PostgresMap.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/PostgresMap~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/PostgresMap.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/PostgresStORM.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/PostgresStORM.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/PostgresStORM~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/PostgresStORM.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Select.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Select.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Select~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Select.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/SQL.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/SQL.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/SQL~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/SQL.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Update.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Update.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Update~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Update.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Upsert.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Upsert.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Upsert~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PostgresStORM.build/Upsert.swiftdeps"
+  }
+}

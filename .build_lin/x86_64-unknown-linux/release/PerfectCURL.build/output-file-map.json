@@ -1,0 +1,32 @@
+{
+  "": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/PerfectCURL.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/PerfectCURL.o",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/master.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Perfect-CURL.git-2546662166492764252/Sources/cURL.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/cURL.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/cURL~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/cURL.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Perfect-CURL.git-2546662166492764252/Sources/CURLRequest.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLRequest.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLRequest~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLRequest.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Perfect-CURL.git-2546662166492764252/Sources/CURLRequestOptions.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLRequestOptions.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLRequestOptions~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLRequestOptions.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Perfect-CURL.git-2546662166492764252/Sources/CURLResponse.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLResponse.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLResponse~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLResponse.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Perfect-CURL.git-2546662166492764252/Sources/CURLResponseInfos.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLResponseInfos.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLResponseInfos~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectCURL.build/CURLResponseInfos.swiftdeps"
+  }
+}

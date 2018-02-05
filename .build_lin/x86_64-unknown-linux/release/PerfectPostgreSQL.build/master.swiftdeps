@@ -1,0 +1,5 @@
+version: "Swift version 4.0 (swift-4.0-RELEASE)"
+options: "5da1d59efee372bb4e6e9036c6476986"
+build_time: [1517581842, 396654263]
+inputs:
+  "/perfectbuild/.build/checkouts/Perfect-PostgreSQL.git-3879180915225408446/Sources/PerfectPostgreSQL.swift": [9223372036, 854775807]

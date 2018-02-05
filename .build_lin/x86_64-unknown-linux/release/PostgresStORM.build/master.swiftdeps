@@ -1,0 +1,16 @@
+version: "Swift version 4.0 (swift-4.0-RELEASE)"
+options: "0c828b45fbaed8ca65b124f7b1bbecfb"
+build_time: [1517581899, 699195078]
+inputs:
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Convenience.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/DataConverters.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Delete.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Insert.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/parseRows.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/PostgresConnect.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/PostgresMap.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/PostgresStORM.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Select.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/SQL.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Update.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Postgres-StORM.git-4745163719733087674/Sources/Upsert.swift": [9223372036, 854775807]

@@ -1,0 +1,6 @@
+version: "Swift version 4.0 (swift-4.0-RELEASE)"
+options: "5ad01932c3708eaa4c32b15cf72db619"
+build_time: [1517581838, 908837000]
+inputs:
+  "/perfectbuild/.build/checkouts/Perfect-XML.git--6600159709460597208/Sources/PerfectXML.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-XML.git--6600159709460597208/Sources/PerfectXPath.swift": [9223372036, 854775807]

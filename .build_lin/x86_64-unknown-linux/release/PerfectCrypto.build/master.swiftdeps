@@ -1,0 +1,11 @@
+version: "Swift version 4.0 (swift-4.0-RELEASE)"
+options: "78de36ef0acf9c769c81d406453661ae"
+build_time: [1517581852, 482416979]
+inputs:
+  "/perfectbuild/.build/checkouts/Perfect-Crypto.git--2842546032468394513/Sources/PerfectCrypto/Algorithms.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Crypto.git--2842546032468394513/Sources/PerfectCrypto/ByteIO.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Crypto.git--2842546032468394513/Sources/PerfectCrypto/Extensions.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Crypto.git--2842546032468394513/Sources/PerfectCrypto/JWT.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Crypto.git--2842546032468394513/Sources/PerfectCrypto/Keys.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Crypto.git--2842546032468394513/Sources/PerfectCrypto/OpenSSLInternal.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Crypto.git--2842546032468394513/Sources/PerfectCrypto/PerfectCrypto.swift": [9223372036, 854775807]

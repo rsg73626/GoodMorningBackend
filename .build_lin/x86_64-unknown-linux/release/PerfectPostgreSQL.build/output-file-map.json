@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectPostgreSQL.build/PerfectPostgreSQL.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectPostgreSQL.build/PerfectPostgreSQL.o",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectPostgreSQL.build/master.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Perfect-PostgreSQL.git-3879180915225408446/Sources/PerfectPostgreSQL.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectPostgreSQL.build/PerfectPostgreSQL.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectPostgreSQL.build/PerfectPostgreSQL~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectPostgreSQL.build/PerfectPostgreSQL.swiftdeps"
+  }
+}

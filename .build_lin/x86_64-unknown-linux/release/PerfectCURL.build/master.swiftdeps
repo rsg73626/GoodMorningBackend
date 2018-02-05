@@ -1,0 +1,9 @@
+version: "Swift version 4.0 (swift-4.0-RELEASE)"
+options: "2dcb58d100fd6031bc93faaba4c569a3"
+build_time: [1517581892, 367508993]
+inputs:
+  "/perfectbuild/.build/checkouts/Perfect-CURL.git-2546662166492764252/Sources/cURL.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-CURL.git-2546662166492764252/Sources/CURLRequest.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-CURL.git-2546662166492764252/Sources/CURLRequestOptions.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-CURL.git-2546662166492764252/Sources/CURLResponse.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-CURL.git-2546662166492764252/Sources/CURLResponseInfos.swift": [9223372036, 854775807]

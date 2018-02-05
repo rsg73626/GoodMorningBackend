@@ -1,0 +1,17 @@
+{
+  "": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectXML.build/PerfectXML.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectXML.build/PerfectXML.o",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectXML.build/master.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Perfect-XML.git--6600159709460597208/Sources/PerfectXML.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectXML.build/PerfectXML.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectXML.build/PerfectXML~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectXML.build/PerfectXML.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Perfect-XML.git--6600159709460597208/Sources/PerfectXPath.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectXML.build/PerfectXPath.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectXML.build/PerfectXPath~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectXML.build/PerfectXPath.swiftdeps"
+  }
+}

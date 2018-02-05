@@ -1,0 +1,11 @@
+version: "Swift version 4.0 (swift-4.0-RELEASE)"
+options: "51776c97b413ed1c31b30eb5e336b8e5"
+build_time: [1517581860, 528771258]
+inputs:
+  "/perfectbuild/.build/checkouts/Perfect-Net.git-91630469447113754/Sources/Net.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Net.git-91630469447113754/Sources/NetAddress.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Net.git-91630469447113754/Sources/NetEvent.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Net.git-91630469447113754/Sources/NetNamedPipe.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Net.git-91630469447113754/Sources/NetTCP.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Net.git-91630469447113754/Sources/NetTCPSSL.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Net.git-91630469447113754/Sources/NetUDP.swift": [9223372036, 854775807]

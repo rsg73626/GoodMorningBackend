@@ -4,7 +4,7 @@ import PerfectHTTP
 import PerfectHTTPServer
 
 // Create database
-ConfigDB.connect(host: "localhost", username: "rsgermano1", password: "", database: "goodmorning", port: 5432)
+ConfigDB.connect(host: "renandb.cbbatd2n46kn.us-east-2.rds.amazonaws.com", username: "rsgermano1", password: "rsg73626", database: "goodmorning", port: 5432)
 ConfigDB.createTables()
 ConfigDB.runSeeds()
 

@@ -1,0 +1,6 @@
+version: "Swift version 4.0 (swift-4.0-RELEASE)"
+options: "279841a5cacf6d1f64e1d6c689153846"
+build_time: [1517581897, 404993962]
+inputs:
+  "/perfectbuild/.build/checkouts/Perfect-Logger.git--5726319928086632721/Sources/PerfectLogger/FileLogger.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/Perfect-Logger.git--5726319928086632721/Sources/PerfectLogger/RemoteLogger.swift": [9223372036, 854775807]

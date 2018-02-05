@@ -1,0 +1,10 @@
+version: "Swift version 4.0 (swift-4.0-RELEASE)"
+options: "f4a9513f437c252db9925d1e263bc2c2"
+build_time: [1517581835, 608102788]
+inputs:
+  "/perfectbuild/.build/checkouts/SwiftMoment.git--8196566130020382377/Sources/SwiftMoment/Duration.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/SwiftMoment.git--8196566130020382377/Sources/SwiftMoment/Extensions.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/SwiftMoment.git--8196566130020382377/Sources/SwiftMoment/Moment.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/SwiftMoment.git--8196566130020382377/Sources/SwiftMoment/MomentFromNow.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/SwiftMoment.git--8196566130020382377/Sources/SwiftMoment/Operators.swift": [9223372036, 854775807]
+  "/perfectbuild/.build/checkouts/SwiftMoment.git--8196566130020382377/Sources/SwiftMoment/TimeUnit.swift": [9223372036, 854775807]

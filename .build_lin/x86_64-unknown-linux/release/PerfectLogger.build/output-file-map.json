@@ -1,0 +1,17 @@
+{
+  "": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectLogger.build/PerfectLogger.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectLogger.build/PerfectLogger.o",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectLogger.build/master.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Perfect-Logger.git--5726319928086632721/Sources/PerfectLogger/FileLogger.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectLogger.build/FileLogger.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectLogger.build/FileLogger~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectLogger.build/FileLogger.swiftdeps"
+  },
+  "/perfectbuild/.build/checkouts/Perfect-Logger.git--5726319928086632721/Sources/PerfectLogger/RemoteLogger.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectLogger.build/RemoteLogger.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectLogger.build/RemoteLogger~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/PerfectLogger.build/RemoteLogger.swiftdeps"
+  }
+}

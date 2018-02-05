@@ -2228,3 +2228,68 @@
 [INFO] [f4967db0-b287-488e-adc2-2260262d9ea1] [2018-01-30 02:34:50 GMT-02:00] Running setup: greeting
 [INFO] [665cd3f7-64af-450e-8afe-197a88099143] [2018-01-30 02:34:50 GMT-02:00] Running setup: interaction
 [ERROR] [d9f0a7f2-4bbd-49bc-872b-40ab0bc30bc4] [2018-01-30 02:34:50 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [46d10a88-834f-4223-849c-50e399a322f5] [2018-02-02 12:06:12 GMT-02:00] Running setup: goodmorning_user
+[INFO] [036da207-192e-4fad-8fae-4d1d2f2d3f70] [2018-02-02 12:06:13 GMT-02:00] Running setup: contact
+[INFO] [2a80f816-3a3e-4a86-bf70-b16c23410e7b] [2018-02-02 12:06:13 GMT-02:00] Running setup: contact
+[ERROR] [8991f61e-acdd-4c31-bf73-b68bcab1b563] [2018-02-02 12:06:13 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [9549e5f6-db00-4c2e-a73d-c3f0c9e29c10] [2018-02-02 12:06:13 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [ff70f954-9fcd-4308-ac36-bda73260fe5d] [2018-02-02 12:06:13 GMT-02:00] Running setup: contact
+[INFO] [b22a2045-b4e8-445b-9538-6443bfcc255a] [2018-02-02 12:06:13 GMT-02:00] Running setup: greeting
+[INFO] [e045f113-2d1b-41f1-a09a-d6c8012cf5b6] [2018-02-02 12:06:13 GMT-02:00] Running setup: greeting
+[ERROR] [6f09397e-f490-4801-b19d-7c602c4a19a4] [2018-02-02 12:06:13 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [dbfe8967-afdc-4d76-ade3-050799d249e6] [2018-02-02 12:06:13 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [b8815cc7-c2ee-4f26-8734-2bcc4fde279d] [2018-02-02 12:06:13 GMT-02:00] Running setup: greeting
+[INFO] [afd8c483-9319-4532-93dd-d135fa3a3e94] [2018-02-02 12:06:13 GMT-02:00] Running setup: greeting
+[INFO] [131fa6c2-1d0f-4afd-975e-dd7927c38e3f] [2018-02-02 12:06:13 GMT-02:00] Running setup: interaction
+[ERROR] [76725167-e29e-44da-8df4-687f9c74c0e7] [2018-02-02 12:06:13 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [4bbcd0c3-fef1-4c5c-8089-84e443364ce0] [2018-02-02 12:09:18 GMT-02:00] Running setup: goodmorning_user
+[INFO] [1a4e2a57-e995-4903-804b-b4eb132d88b8] [2018-02-02 12:09:20 GMT-02:00] Running setup: contact
+[INFO] [f8bde083-3b3b-492c-bf5d-4db247d8a483] [2018-02-02 12:09:21 GMT-02:00] Running setup: contact
+[ERROR] [af3bf574-5811-4b36-a00e-981c0968c73a] [2018-02-02 12:09:22 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [a287ebd5-b469-43c6-819f-11261764a13f] [2018-02-02 12:09:22 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [6f84a888-c1a8-40b2-b129-0b6aebfbcb15] [2018-02-02 12:09:22 GMT-02:00] Running setup: contact
+[INFO] [765a658b-10b0-4077-91de-dafbe7bfa424] [2018-02-02 12:09:23 GMT-02:00] Running setup: greeting
+[INFO] [b0a4193a-bd63-481d-947e-f27f8d80f9ab] [2018-02-02 12:09:24 GMT-02:00] Running setup: greeting
+[ERROR] [1f9b1e9c-d03e-4ef9-b9bb-1384109337a0] [2018-02-02 12:09:25 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [e3ad5f46-bf79-4aef-b07f-054d19009a68] [2018-02-02 12:09:25 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [661524ce-6f48-4c93-a956-66bc229ff642] [2018-02-02 12:09:25 GMT-02:00] Running setup: greeting
+[INFO] [1f96422e-43ee-418f-944f-ae050c9390ec] [2018-02-02 12:09:27 GMT-02:00] Running setup: greeting
+[INFO] [2c165427-29a4-4b16-824f-bd3e77b513e8] [2018-02-02 12:09:28 GMT-02:00] Running setup: interaction
+[ERROR] [11a76415-166b-4c61-9e4d-ea2a7e35081e] [2018-02-02 12:09:31 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [fcc3c5c5-4919-47db-803d-d3c74c3e32cc] [2018-02-02 12:10:48 GMT-02:00] Running setup: goodmorning_user
+[INFO] [24171d4c-2faa-4a69-a64a-48bad0248793] [2018-02-02 12:10:49 GMT-02:00] Running setup: contact
+[INFO] [ac21e22f-400e-4079-8b3e-5929cf427ec2] [2018-02-02 12:10:51 GMT-02:00] Running setup: contact
+[ERROR] [2d2bd7e3-775e-4810-9005-84443f5da674] [2018-02-02 12:10:52 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [e7bf755a-ab4c-4c8d-8a8b-70909bee76a0] [2018-02-02 12:10:52 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [79d026ec-c58a-45c2-b8ca-7beeb0df4fe6] [2018-02-02 12:10:52 GMT-02:00] Running setup: contact
+[INFO] [449be1e1-ab1c-4251-800d-2a2b42f01f35] [2018-02-02 12:10:53 GMT-02:00] Running setup: greeting
+[INFO] [b56c75bb-5b74-4bde-a672-5c3d56c92aef] [2018-02-02 12:10:54 GMT-02:00] Running setup: greeting
+[ERROR] [5d56894b-ec2a-4803-abc0-6c1b40b10fd2] [2018-02-02 12:10:55 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [767a1179-78e6-4f6a-877a-1438c9a3f1e9] [2018-02-02 12:10:55 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [50952073-787a-4a35-9044-bf9149819a52] [2018-02-02 12:10:55 GMT-02:00] Running setup: greeting
+[INFO] [e53a1c4e-185c-4b78-a8b0-38ad0d011edc] [2018-02-02 12:10:56 GMT-02:00] Running setup: greeting
+[INFO] [db4682ac-1155-4a26-a674-86d49b770e48] [2018-02-02 12:10:57 GMT-02:00] Running setup: interaction
+[ERROR] [b3f8b535-6efb-4e16-a2cf-522b010b4dcd] [2018-02-02 12:10:59 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
+[INFO] [e7729afb-58ef-47c6-a13e-04468ef7f83f] [2018-02-02 12:18:01 GMT-02:00] Running setup: goodmorning_user
+[INFO] [fdb2869e-6dd7-4da1-acee-e066c2edfeec] [2018-02-02 12:18:03 GMT-02:00] Running setup: contact
+[INFO] [e035ad93-2a04-4407-9b87-40d2575e1564] [2018-02-02 12:18:04 GMT-02:00] Running setup: contact
+[INFO] [a6c03e09-afaf-4d99-871d-cc89fcddf7db] [2018-02-02 12:18:05 GMT-02:00] Running setup: contact
+[INFO] [26b300ff-bd87-45b7-85e9-dcc3f6a6e25b] [2018-02-02 12:18:06 GMT-02:00] Running setup: greeting
+[INFO] [9f61859c-3395-45c2-a978-86aa0cebc269] [2018-02-02 12:18:07 GMT-02:00] Running setup: greeting
+[INFO] [0f51bcff-0ee0-4141-bd50-f96b568509a8] [2018-02-02 12:18:08 GMT-02:00] Running setup: greeting
+[INFO] [b99578e2-9a99-4939-a210-2ea0bbfca281] [2018-02-02 12:18:09 GMT-02:00] Running setup: greeting
+[INFO] [85d77258-c5c5-4213-ac0d-eec5e5ecd50e] [2018-02-02 12:18:10 GMT-02:00] Running setup: interaction
+[INFO] [a7522968-4aaa-4efd-a8d2-9313e589f7d1] [2018-02-02 12:24:26 GMT-02:00] Running setup: goodmorning_user
+[INFO] [aa4d788f-ea55-4b3a-aab8-b524059803cd] [2018-02-02 12:24:28 GMT-02:00] Running setup: contact
+[INFO] [0b1c50eb-f2fc-450c-8aa8-71747f513812] [2018-02-02 12:24:29 GMT-02:00] Running setup: contact
+[ERROR] [76978f28-f642-4273-b363-61f7c99b53a1] [2018-02-02 12:24:30 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[ERROR] [96ff2296-c27a-4370-9a30-755e23035425] [2018-02-02 12:24:30 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"contact_type_description_key\"\nDETAIL:  Key (description)=(Cellphone) already exists.")
+[INFO] [66b07de3-fc67-461a-83b3-7332e92b4eec] [2018-02-02 12:24:30 GMT-02:00] Running setup: contact
+[INFO] [afcfc963-683b-4fe9-9111-b3984df0e972] [2018-02-02 12:24:31 GMT-02:00] Running setup: greeting
+[INFO] [db417f41-b1ae-40df-a1bc-3faedabb7d4d] [2018-02-02 12:24:32 GMT-02:00] Running setup: greeting
+[ERROR] [561e8791-8e86-4611-91c5-6358604a518f] [2018-02-02 12:24:33 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[ERROR] [4b1767f6-dcb6-4ddb-90d1-7cdf5f92485c] [2018-02-02 12:24:33 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"greeting_type_description_key\"\nDETAIL:  Key (description)=(GoodMorning) already exists.")
+[INFO] [60c0d653-de85-47a2-b003-e4f2bb9ef908] [2018-02-02 12:24:33 GMT-02:00] Running setup: greeting
+[INFO] [70b5adee-ac8a-4c8d-85ee-4d742aa77cd5] [2018-02-02 12:24:34 GMT-02:00] Running setup: greeting
+[INFO] [d5c9bf3b-0a34-4105-ae97-45169448be20] [2018-02-02 12:24:35 GMT-02:00] Running setup: interaction
+[ERROR] [f18576b6-57ca-4364-9bde-295774bb62d1] [2018-02-02 12:24:37 GMT-02:00] Error msg: error("ERROR:  duplicate key value violates unique constraint \"goodmorning_user_email_key\"\nDETAIL:  Key (email)=(renan@email.com) already exists.")
